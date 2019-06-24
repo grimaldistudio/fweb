@@ -12,7 +12,7 @@
 <?php b4st_navbar_before();?>
 
 <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container">
+  <div class="container-fluid">
 
     <?php b4st_navbar_brand();?>
 
