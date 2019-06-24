@@ -21,7 +21,7 @@ if ( ! function_exists('b4st_enqueues') ) {
 
 		// Scripts
 
-		wp_register_script('modernizr', 'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', false, '2.8.3', true);
+		wp_register_script('modernizr', get_template_directory_uri() . '/theme/modernizr.min.js', false, '2.8.3', true);
 		wp_enqueue_script('modernizr');
 
 		wp_enqueue_script('jquery');
