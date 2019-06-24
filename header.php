@@ -33,7 +33,7 @@
         ) );
       ?>
 
-      <?php b4st_navbar_search();?>    
+     <!-- <?php b4st_navbar_search();?>     -->
     </div>
 
   </div>
