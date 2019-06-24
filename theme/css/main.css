@@ -1,0 +1,651 @@
+/*!
+ * fweb v1.0.0
+ * Wordpress Flottaweb Theme
+ * (c) 2019 
+ * MIT License
+ * git+https://domenico@grimaldistudio.com@github.com/grimaldistudio/fweb.git
+ */
+
+@charset "UTF-8";
+/*
+ * b4st CSS
+ */
+/* Sticky Footer */
+/* line 6, src/sass/components/_base.scss */
+body {
+  display: -webkit-box;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+/* line 11, src/sass/components/_base.scss */
+main {
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+}
+
+/* line 15, src/sass/components/_base.scss */
+.site-header-image {
+  display: block;
+  margin: auto;
+}
+
+/* line 28, src/sass/components/_base.scss */
+.alignleft {
+  float: left;
+}
+
+/* line 32, src/sass/components/_base.scss */
+.alignright {
+  float: right;
+}
+
+/* line 36, src/sass/components/_base.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+}
+
+/* Max img widths */
+/* line 43, src/sass/components/_base.scss */
+img,
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Author bio */
+/* line 55, src/sass/components/_base.scss */
+.author-bio .avatar {
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+}
+
+/* Main content */
+/* Sidebar */
+/* Hide form placeholders on focus */
+/* line 66, src/sass/components/_base.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 67, src/sass/components/_base.scss */
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 4-18 */
+/* line 68, src/sass/components/_base.scss */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 19+ */
+/* line 69, src/sass/components/_base.scss */
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 70, src/sass/components/_base.scss */
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 4-18 */
+/* line 71, src/sass/components/_base.scss */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 19+ */
+/* Comments */
+/* line 75, src/sass/components/_base.scss */
+#comments,
+#reply-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 81, src/sass/components/_base.scss */
+.commentlist,
+.commentlist ul {
+  padding-left: 0;
+}
+
+/* line 86, src/sass/components/_base.scss */
+.commentlist li {
+  padding: 1rem;
+}
+
+/* line 90, src/sass/components/_base.scss */
+.comment-meta {
+  margin-bottom: 1rem;
+}
+
+/* line 94, src/sass/components/_base.scss */
+.comment > .children {
+  margin-top: 1rem;
+  margin-right: -0.625rem;
+  margin-bottom: -1.625rem;
+}
+
+/* Site footer */
+/* line 1, src/sass/components/_blocks.scss */
+.entry-content > * {
+  margin: 36px auto;
+  max-width: 636px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/* line 8, src/sass/components/_blocks.scss */
+.entry-content > .alignwide {
+  max-width: 1100px;
+}
+
+/* line 12, src/sass/components/_blocks.scss */
+.entry-content > .alignfull {
+  margin: 1.5em 0;
+  max-width: 100%;
+}
+
+/* line 17, src/sass/components/_blocks.scss */
+.entry-content ul, .entry-content ol {
+  margin: 1.5em auto;
+  max-width: 636px;
+  list-style-position: outside;
+}
+
+/* line 23, src/sass/components/_blocks.scss */
+.wp-block-video video {
+  max-width: 636px;
+}
+
+/* line 27, src/sass/components/_blocks.scss */
+.wp-block-image img {
+  display: block;
+}
+
+/* line 31, src/sass/components/_blocks.scss */
+.wp-block-image.alignleft, .wp-block-image.alignright {
+  width: 100%;
+}
+
+/* line 35, src/sass/components/_blocks.scss */
+.wp-block-image.alignfull img {
+  width: 100vw;
+}
+
+/* line 39, src/sass/components/_blocks.scss */
+.wp-block-gallery:not(.components-placeholder) {
+  margin: 1.5em auto;
+}
+
+/* line 43, src/sass/components/_blocks.scss */
+.wp-block-cover-text p {
+  padding: 1.5em 14px;
+}
+
+/* line 47, src/sass/components/_blocks.scss */
+ul.wp-block-latest-posts.alignwide, ul.wp-block-latest-posts.alignfull, ul.wp-block-latest-posts.is-grid.alignwide, ul.wp-block-latest-posts.is-grid.alignwide {
+  padding: 0 14px;
+}
+
+/* line 51, src/sass/components/_blocks.scss */
+.wp-block-table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* line 56, src/sass/components/_blocks.scss */
+.wp-block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 61, src/sass/components/_blocks.scss */
+.wp-block-table td, .wp-block-table th {
+  padding: .5em;
+}
+
+/* line 65, src/sass/components/_blocks.scss */
+.entry-content li {
+  margin-left: 2.5em;
+  margin-bottom: 6px;
+}
+
+/* line 70, src/sass/components/_blocks.scss */
+.entry-content ul ul, .entry-content ol ol, .entry-content ul ol, .entry-content ol ul {
+  margin: 0 auto;
+}
+
+/* line 74, src/sass/components/_blocks.scss */
+.entry-content ul ul li, .entry-content ol ol li, .entry-content ul ol li, .entry-content ol ul li {
+  margin-left: 0;
+}
+
+/* line 78, src/sass/components/_blocks.scss */
+.wp-block-embed.type-video > .wp-block-embed__wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+
+/* line 85, src/sass/components/_blocks.scss */
+.wp-block-embed.type-video > .wp-block-embed__wrapper > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 95, src/sass/components/_blocks.scss */
+.wp-block-quote.is-large {
+  margin: 0 auto 16px;
+}
+
+/* line 99, src/sass/components/_blocks.scss */
+.wp-block-pullquote > p:first-child {
+  margin-top: 0;
+}
+
+/* line 103, src/sass/components/_blocks.scss */
+.wp-block-separator {
+  margin: 3em auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 109, src/sass/components/_blocks.scss */
+  .wp-block-cover-text p {
+    padding: 1.5em 0;
+  }
+  /* line 112, src/sass/components/_blocks.scss */
+  .entry-content > * {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*
+ * b4st Editor Styles (Gutenberg Ready)
+ * ====================================
+ * (1.) Bootstrap’s Reboot: `reboot.min.css`
+ * (2.) Title: `.editor-post-title__block .editor-post-title__input`
+ *      — copied from base font-family and Bootstrap h1
+ */
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+/* line 17, src/sass/components/_editor.scss */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+abbr[data-original-title], abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+blockquote {
+  margin: 0 0 1rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+code, kbd, pre, samp {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size: 1em;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+figure {
+  margin: 0 0 1rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+caption {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+th {
+  text-align: inherit;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+button {
+  border-radius: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+button, input {
+  overflow: visible;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+select {
+  word-wrap: normal;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+input[type=date], input[type=datetime-local], input[type=month], input[type=time] {
+  -webkit-appearance: listbox;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+output {
+  display: inline-block;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+template {
+  display: none;
+}
+
+/* line 17, src/sass/components/_editor.scss */
+[hidden] {
+  display: none !important;
+}
+/* Gutenberg Editor Title Block (same as Bootstrap = b4st frontend h1) */
+/* line 22, src/sass/components/_editor.scss */
+.editor-post-title__block .editor-post-title__input {
+  margin-bottom: .5rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}

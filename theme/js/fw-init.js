@@ -1,12 +1,16 @@
-/*
- * b4st JS
+/*!
+ * fweb v1.0.0
+ * Wordpress Flottaweb Theme
+ * (c) 2019 
+ * MIT License
+ * git+https://domenico@grimaldistudio.com@github.com/grimaldistudio/fweb.git
  */
 
 (function ($) {
 
 	'use strict';
 
-	$(document).ready(function() {
+	$(document).ready((function() {
 
 		// Comments
 
@@ -24,6 +28,6 @@
 
 		// You can put your own code in here
 
-	});
+	}));
 
 }(jQuery));
