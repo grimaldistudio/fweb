@@ -942,3 +942,9 @@ and open the template in the editor.
     margin-bottom: 20px !important;
   }
 }
+
+/* line 224, src/sass/components/_menu.scss */
+.menu-item-spacing {
+  padding-left: 0 !important;
+  margin-left: 1.8rem !important;
+}
