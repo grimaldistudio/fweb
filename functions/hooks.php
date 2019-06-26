@@ -16,7 +16,7 @@ function b4st_navbar_after() {
 function b4st_navbar_brand() {
   if ( ! has_action('navbar_brand') ) {
     ?>
-    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php bloginfo('template_directory');?>/img/flottaweb-marker.png"></a>
+    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php bloginfo('template_directory');?>/theme/img/flottaweb-marker.png"></a>
     <?php
   } else {
 		do_action('navbar_brand');

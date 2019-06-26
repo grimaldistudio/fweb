@@ -39,16 +39,18 @@
 	padding: 0;
 }
 .navbar-brand img{
-	height: 52px;
+	height: 47px;
 	width: auto;
 	display: block;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
+        margin-left: 20px;
 }
 .navbar-toggler {
 	float: right;
 	border: none;
 	padding-right: 0;
+        margin: 0 30px 10px 0;
 }
 .navbar-toggler:active,
 .navbar-toggler:focus {
