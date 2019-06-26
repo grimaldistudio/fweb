@@ -172,10 +172,16 @@
 
 .menu-item-spacing {
     padding-left: 0 !important;
-    margin-left: 2.2rem !important;    
+    margin-left: 3.0rem !important;    
 }
 
-
+.navbar-nav {
+    li {
+        &:last-child {
+            margin-right: 20px;
+        }
+    }
+}
 @media (max-width: 767px) { 
 	
 	.nav-item:after{
@@ -219,7 +225,15 @@
 	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
 		margin-top: 10px !important;
 		margin-bottom: 20px !important;
-	}	
+	}
+        
+        .navbar-nav {
+            li {
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
 }
 
 

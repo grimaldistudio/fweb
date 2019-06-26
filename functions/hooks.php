@@ -16,7 +16,7 @@ function b4st_navbar_after() {
 function b4st_navbar_brand() {
   if ( ! has_action('navbar_brand') ) {
     ?>
-    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><?php bloginfo('name'); ?></a>
+    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php bloginfo('template_directory');?>/img/flottaweb-marker.png"></a>
     <?php
   } else {
 		do_action('navbar_brand');
@@ -77,7 +77,7 @@ function b4st_bottomline() {
           <p class="text-center text-sm-left">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
         </div>
         <div class="col-sm">
-          <p class="text-center text-sm-right"><a href="https://github.com/SimonPadbury/b4st">b4st</a> theme for WordPress</p>
+          <p class="text-center text-sm-right"><a href="#">footer</a> Footer</p>
         </div>
       </div>
     </div>

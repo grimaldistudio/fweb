@@ -10,6 +10,7 @@ var settings = {
 	styles: true,
 	svgs: false,
 	copy: true,
+        imgs: true,
 	reload: true
 };
 
@@ -33,6 +34,10 @@ var paths = {
 	svgs: {
 		input: 'src/svg/*.svg',
 		output: './theme/svg/'
+	},
+        imgs: {
+		input: 'src/img/*',
+		output: './theme/img/'
 	},
 	copy: {
 		input: 'src/copy/**/*',
@@ -242,6 +247,18 @@ var copyFiles = function (done) {
 
 };
 
+// Copy images files into output folder
+var copyImages = function (done) {
+
+	// Make sure this feature is activated before running
+	if (!settings.imgs) return done();
+
+	// Copy static files
+	return src(paths.imgs.input)
+		.pipe(dest(paths.imgs.output));
+
+};
+
 // Watch for changes to the src directory
 var startServer = function (done) {
 
@@ -287,7 +304,8 @@ exports.default = series(
 		lintScripts,
 		buildStyles,
 		buildSVGs,
-		copyFiles
+		copyFiles,
+                copyImages
 	)
 );
 

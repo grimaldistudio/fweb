@@ -892,15 +892,20 @@ template {
 /* line 173, src/sass/components/_menu.scss */
 .menu-item-spacing {
   padding-left: 0 !important;
-  margin-left: 2.2rem !important;
+  margin-left: 3.0rem !important;
+}
+
+/* line 180, src/sass/components/_menu.scss */
+.navbar-nav li:last-child {
+  margin-right: 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 181, src/sass/components/_menu.scss */
+  /* line 187, src/sass/components/_menu.scss */
   .nav-item:after {
     display: none;
   }
-  /* line 184, src/sass/components/_menu.scss */
+  /* line 190, src/sass/components/_menu.scss */
   .nav-item::before {
     position: absolute;
     display: block;
@@ -913,7 +918,7 @@ template {
     background-color: #000;
     vertical-align: 0;
   }
-  /* line 196, src/sass/components/_menu.scss */
+  /* line 202, src/sass/components/_menu.scss */
   .dropdown-toggle::after {
     position: absolute;
     display: block;
@@ -928,13 +933,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 209, src/sass/components/_menu.scss */
+  /* line 215, src/sass/components/_menu.scss */
   .dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  /* line 213, src/sass/components/_menu.scss */
+  /* line 219, src/sass/components/_menu.scss */
   .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
@@ -942,9 +947,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 219, src/sass/components/_menu.scss */
+  /* line 225, src/sass/components/_menu.scss */
   .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
+  }
+  /* line 232, src/sass/components/_menu.scss */
+  .navbar-nav li:last-child {
+    margin-right: 0;
   }
 }
