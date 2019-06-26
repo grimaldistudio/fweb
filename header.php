@@ -14,16 +14,16 @@
 <div class="navigation-wrap bg-light start-header start-style">
     
       <div class="container">
-        <div class="ml-auto">
+        <div class="text-right">
             
-            <ul class="list-inline">
-              <li class="list-inline-item">+39 06.808.080</li>
-              <li class="list-inline-item"><button class="btn btn-primary">Richiedi Demo</button></li>
-              <li class="list-inline-item"><button class="btn btn-danger">Assistenza</button></li>
-            </ul>
+                <ul class="list-inline d-inline-flex align-middle">
+                  <li class="list-inline-item">+39 06.808.080</li>
+                  <li class="list-inline-item"><button class="btn btn-primary">Richiedi Demo</button></li>
+                  <li class="list-inline-item"><button class="btn btn-danger">Assistenza</button></li>
+                </ul>
             
-              <ul class="list-inline">
-              <li class="list-inline-item">FB</li>
+              <ul class="list-inline d-inline-flex align-middle">
+                <li class="list-inline-item">FB</li>
               </ul>
             
         </div>
