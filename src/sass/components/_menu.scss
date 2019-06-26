@@ -89,6 +89,7 @@
 .nav-link{
     color: $brand-primary !important;
     font-weight: 500;
+    text-transform: uppercase;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
