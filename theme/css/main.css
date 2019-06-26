@@ -7,6 +7,10 @@
  */
 
 @charset "UTF-8";
+/* 
+    Created on : 26-giu-2019, 17.04.02
+    Author     : Domenico
+*/
 /*
  * b4st CSS
  */
@@ -650,18 +654,13 @@ template {
   color: inherit;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 26-giu-2019, 16.28.28
     Author     : Domenico
 */
 /* #Navigation
 ================================================== */
-/* line 15, src/sass/components/_menu.scss */
+/* line 10, src/sass/components/_menu.scss */
 .start-header {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -672,7 +671,7 @@ and open the template in the editor.
   transition: all 0.3s ease-out;
 }
 
-/* line 23, src/sass/components/_menu.scss */
+/* line 18, src/sass/components/_menu.scss */
 .start-header.scroll-on {
   box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
   padding: 5px 0;
@@ -680,14 +679,14 @@ and open the template in the editor.
   transition: all 0.3s ease-out;
 }
 
-/* line 29, src/sass/components/_menu.scss */
+/* line 24, src/sass/components/_menu.scss */
 .start-header.scroll-on .navbar-brand img {
   height: 28px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-/* line 34, src/sass/components/_menu.scss */
+/* line 29, src/sass/components/_menu.scss */
 .navigation-wrap {
   position: fixed;
   width: 100%;
@@ -698,12 +697,12 @@ and open the template in the editor.
   transition: all 0.3s ease-out;
 }
 
-/* line 43, src/sass/components/_menu.scss */
+/* line 38, src/sass/components/_menu.scss */
 .navbar {
   padding: 0;
 }
 
-/* line 46, src/sass/components/_menu.scss */
+/* line 41, src/sass/components/_menu.scss */
 .navbar-brand img {
   height: 52px;
   width: auto;
@@ -712,20 +711,20 @@ and open the template in the editor.
   transition: all 0.3s ease-out;
 }
 
-/* line 53, src/sass/components/_menu.scss */
+/* line 48, src/sass/components/_menu.scss */
 .navbar-toggler {
   float: right;
   border: none;
   padding-right: 0;
 }
 
-/* line 58, src/sass/components/_menu.scss */
+/* line 53, src/sass/components/_menu.scss */
 .navbar-toggler:active,
 .navbar-toggler:focus {
   outline: none;
 }
 
-/* line 62, src/sass/components/_menu.scss */
+/* line 57, src/sass/components/_menu.scss */
 .navbar-light .navbar-toggler-icon {
   width: 24px;
   height: 17px;
@@ -736,7 +735,7 @@ and open the template in the editor.
   transition: all 300ms linear;
 }
 
-/* line 70, src/sass/components/_menu.scss */
+/* line 65, src/sass/components/_menu.scss */
 .navbar-light .navbar-toggler-icon:after,
 .navbar-light .navbar-toggler-icon:before {
   width: 24px;
@@ -751,54 +750,54 @@ and open the template in the editor.
   transition: all 300ms linear;
 }
 
-/* line 82, src/sass/components/_menu.scss */
+/* line 77, src/sass/components/_menu.scss */
 .navbar-light .navbar-toggler-icon:after {
   top: 8px;
 }
 
-/* line 85, src/sass/components/_menu.scss */
+/* line 80, src/sass/components/_menu.scss */
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-/* line 88, src/sass/components/_menu.scss */
+/* line 83, src/sass/components/_menu.scss */
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   -webkit-transform: translateY(8px) rotate(-45deg);
           transform: translateY(8px) rotate(-45deg);
 }
 
-/* line 91, src/sass/components/_menu.scss */
+/* line 86, src/sass/components/_menu.scss */
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-/* line 94, src/sass/components/_menu.scss */
+/* line 89, src/sass/components/_menu.scss */
 .nav-link {
-  color: #212121 !important;
+  color: #101010 !important;
   font-weight: 500;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-/* line 99, src/sass/components/_menu.scss */
+/* line 94, src/sass/components/_menu.scss */
 .nav-item:hover .nav-link {
   color: #8167a9 !important;
 }
 
-/* line 102, src/sass/components/_menu.scss */
+/* line 97, src/sass/components/_menu.scss */
 .nav-item.active .nav-link {
   color: #777 !important;
 }
 
-/* line 105, src/sass/components/_menu.scss */
+/* line 100, src/sass/components/_menu.scss */
 .nav-link {
   position: relative;
   padding: 5px 0 !important;
   display: inline-block;
 }
 
-/* line 110, src/sass/components/_menu.scss */
+/* line 105, src/sass/components/_menu.scss */
 .nav-item:after {
   position: absolute;
   bottom: -5px;
@@ -812,25 +811,25 @@ and open the template in the editor.
   transition: all 200ms linear;
 }
 
-/* line 121, src/sass/components/_menu.scss */
+/* line 116, src/sass/components/_menu.scss */
 .nav-item:hover:after {
   bottom: 0;
   opacity: 1;
 }
 
-/* line 125, src/sass/components/_menu.scss */
+/* line 120, src/sass/components/_menu.scss */
 .nav-item.active:hover:after {
   opacity: 0;
 }
 
-/* line 128, src/sass/components/_menu.scss */
+/* line 123, src/sass/components/_menu.scss */
 .nav-item {
   position: relative;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-/* line 133, src/sass/components/_menu.scss */
+/* line 128, src/sass/components/_menu.scss */
 .nav-item .dropdown-menu {
   -webkit-transform: translate3d(0, 10px, 0);
           transform: translate3d(0, 10px, 0);
@@ -844,7 +843,7 @@ and open the template in the editor.
   transition: all 200ms linear;
 }
 
-/* line 143, src/sass/components/_menu.scss */
+/* line 138, src/sass/components/_menu.scss */
 .nav-item.show .dropdown-menu {
   opacity: 1;
   visibility: visible;
@@ -853,7 +852,7 @@ and open the template in the editor.
           transform: translate3d(0, 0px, 0);
 }
 
-/* line 149, src/sass/components/_menu.scss */
+/* line 144, src/sass/components/_menu.scss */
 .dropdown-menu {
   padding: 10px !important;
   margin: 0;
@@ -868,12 +867,12 @@ and open the template in the editor.
   transition: all 200ms linear;
 }
 
-/* line 161, src/sass/components/_menu.scss */
+/* line 156, src/sass/components/_menu.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 165, src/sass/components/_menu.scss */
+/* line 160, src/sass/components/_menu.scss */
 .dropdown-item {
   padding: 3px 15px;
   color: #212121;
@@ -882,11 +881,17 @@ and open the template in the editor.
   transition: all 200ms linear;
 }
 
-/* line 171, src/sass/components/_menu.scss */
+/* line 166, src/sass/components/_menu.scss */
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: #fff;
   background-color: rgba(129, 103, 169, 0.6);
+}
+
+/* line 172, src/sass/components/_menu.scss */
+.menu-item-spacing {
+  padding-left: 0 !important;
+  margin-left: 2.2rem !important;
 }
 
 @media (max-width: 767px) {
@@ -941,10 +946,4 @@ and open the template in the editor.
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-}
-
-/* line 224, src/sass/components/_menu.scss */
-.menu-item-spacing {
-  padding-left: 0 !important;
-  margin-left: 1.8rem !important;
 }
