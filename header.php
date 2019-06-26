@@ -10,8 +10,10 @@
 <body <?php body_class(); ?>>
 
 <?php b4st_navbar_before();?>
+      
+<div class="navigation-wrap bg-light start-header start-style">
     
-    <div class="container">
+      <div class="container">
         <div class="ml-auto">
             
             <ul class="list-inline">
@@ -26,8 +28,7 @@
             
         </div>
     </div>
-
-<div class="navigation-wrap bg-light start-header start-style">
+    
 <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid">
 
