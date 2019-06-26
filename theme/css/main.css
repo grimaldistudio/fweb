@@ -829,3 +829,116 @@ and open the template in the editor.
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
+/* line 133, src/sass/components/_menu.scss */
+.nav-item .dropdown-menu {
+  -webkit-transform: translate3d(0, 10px, 0);
+          transform: translate3d(0, 10px, 0);
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+/* line 143, src/sass/components/_menu.scss */
+.nav-item.show .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 999px;
+  -webkit-transform: translate3d(0, 0px, 0);
+          transform: translate3d(0, 0px, 0);
+}
+
+/* line 149, src/sass/components/_menu.scss */
+.dropdown-menu {
+  padding: 10px !important;
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #212121;
+  background-color: #fcfaff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+/* line 161, src/sass/components/_menu.scss */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* line 165, src/sass/components/_menu.scss */
+.dropdown-item {
+  padding: 3px 15px;
+  color: #212121;
+  border-radius: 2px;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+/* line 171, src/sass/components/_menu.scss */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fff;
+  background-color: rgba(129, 103, 169, 0.6);
+}
+
+@media (max-width: 767px) {
+  /* line 180, src/sass/components/_menu.scss */
+  .nav-item:after {
+    display: none;
+  }
+  /* line 183, src/sass/components/_menu.scss */
+  .nav-item::before {
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 0;
+    width: 11px;
+    height: 1px;
+    content: "";
+    border: none;
+    background-color: #000;
+    vertical-align: 0;
+  }
+  /* line 195, src/sass/components/_menu.scss */
+  .dropdown-toggle::after {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: -23px;
+    width: 1px;
+    height: 11px;
+    content: "";
+    border: none;
+    background-color: #000;
+    vertical-align: 0;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+  /* line 208, src/sass/components/_menu.scss */
+  .dropdown-toggle[aria-expanded="true"]::after {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+  /* line 212, src/sass/components/_menu.scss */
+  .dropdown-menu {
+    padding: 0 !important;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+  /* line 218, src/sass/components/_menu.scss */
+  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+}
