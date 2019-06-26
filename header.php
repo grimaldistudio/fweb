@@ -11,7 +11,7 @@
 
 <?php b4st_navbar_before();?>
     
-    <div class="container d-lg-none">
+    <div class="container">
         <div class="ml-auto">
             
             <ul class="list-inline">
