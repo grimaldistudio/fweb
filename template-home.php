@@ -1,5 +1,4 @@
-<?php /* Template Name: Home Page */ ?>
-
+<?php /* Template Name: Home Template */ ?>
 <?php
     get_header(); 
     b4st_main_before();
@@ -13,8 +12,6 @@
         <?php get_template_part('loops/page-content'); ?>
       </div><!-- /#content -->
     </div>
-
-    <?php get_sidebar(); ?>
 
   </div><!-- /.row -->
 </main><!-- /.container -->
