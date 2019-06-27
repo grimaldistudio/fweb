@@ -10,9 +10,7 @@ HELLO WORLD
       <div id="content" role="main">
         <?php get_template_part('loops/page-content'); ?>
       </div><!-- /#content -->
-    </div>
-
-    <?php get_sidebar(); ?>
+    </div>  
 
   </div><!-- /.row -->
 </main><!-- /.container -->
