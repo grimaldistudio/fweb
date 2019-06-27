@@ -1,3 +1,5 @@
+<?php /* Template Name: Home Page */ ?>
+
 <?php
     get_header(); 
     b4st_main_before();
