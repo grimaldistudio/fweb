@@ -13,7 +13,7 @@
       
 <div class="navigation-wrap bg-light start-header start-style">
     
-      <div class="container">
+      <div class="container-fluid border-bottom">
         <div class="text-right">
             
                 <ul class="list-inline d-inline-flex align-middle">
