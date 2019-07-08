@@ -7,11 +7,11 @@
 <main id="main" class="container mt-5">
   <div class="row">
       
-      [rev_slider alias="homeslider"]
+     <?php putRevSlider('homeslider', 'homepage'); ?>
 
     <div class="col-sm">
       <div id="content" role="main">
-        <?php putRevSlider('homeslider', 'homepage'); ?>
+        
       </div><!-- /#content -->
     </div>
 
