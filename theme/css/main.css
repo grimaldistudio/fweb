@@ -959,3 +959,12 @@ template {
     margin-right: 0;
   }
 }
+
+/*
+* Home page template
+*/
+/* line 6, src/sass/components/_home.scss */
+body.home {
+  background: #e2e2e2 url(../img/home/background.jpg) mo-repeat;
+  background-position: center top;
+}
