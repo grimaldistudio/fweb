@@ -11,7 +11,7 @@
 
     <div class="col-sm">
       <div id="content" role="main">
-        <?php get_template_part('loops/page-content'); ?>
+        <?php putRevSlider('homeslider', 'homepage'); ?>
       </div><!-- /#content -->
     </div>
 
