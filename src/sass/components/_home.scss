@@ -1,0 +1,11 @@
+/*
+* Home page template
+*/
+
+body {
+    &.home {
+        background: $bg-gray-dark url(../img/home/background.jpg) mo-repeat;
+        background-position: center top;
+        
+    }
+}
