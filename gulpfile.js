@@ -36,7 +36,7 @@ var paths = {
 		output: './theme/svg/'
 	},
         imgs: {
-		input: 'src/img/*',
+		input: 'src/img/**/*',
 		output: './theme/img/'
 	},
 	copy: {
