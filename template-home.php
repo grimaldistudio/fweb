@@ -22,9 +22,9 @@
               </div>
           </div>
           
-          
+           <div class="container">
            <?php get_template_part('loops/page-content'); ?>
-                      
+           </div>           
     </div>
 
 
