@@ -963,8 +963,8 @@ template {
 /*
 * Home page template
 */
-/* line 6, src/sass/components/_home.scss */
+/* line 7, src/sass/components/_home.scss */
 body.home {
-  background: #e2e2e2 url(../img/home/background.jpg) mo-repeat;
+  background: #e2e2e2 url(../img/home/background.jpg) no-repeat;
   background-position: center top;
 }
