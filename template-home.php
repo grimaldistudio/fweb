@@ -12,6 +12,10 @@
     <div class="col-sm">
       <div id="content" role="main">
         
+          <div data-liindex="0" data-liref="rs-1" class="tp-tab selected" style="width: 100px; height: 50px; left: 0px; top: 0px;"><div class="tp-tab-content">  <span class="tp-tab-date"></span>  <span class="tp-tab-title">UNO</span></div><div class="tp-tab-image" style="background-image: url(&quot;&quot;);"></div></div>
+          
+          <div data-liindex="1" data-liref="rs-2" class="tp-tab selected" style="width: 100px; height: 50px; left: 0px; top: 0px;"><div class="tp-tab-content">  <span class="tp-tab-date"></span>  <span class="tp-tab-title">DUW</span></div><div class="tp-tab-image" style="background-image: url(&quot;&quot;);"></div></div>
+          
       </div><!-- /#content -->
     </div>
 
