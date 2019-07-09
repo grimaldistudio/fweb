@@ -1,16 +1,33 @@
-/*
- * b4st CSS
- */
+html {
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%
+}
 
-/* Sticky Footer */
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Neue Haas Grotesk Display Pro';
+    font-weight: normal;
+    line-height: 1.5;
+    color: #464a4c;
 }
 main {
     flex: 1 0 auto;
+}
+
+h1 {
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-weight: bold !important;
+}
+
+p {
+   
 }
 
 .site-header-image {
