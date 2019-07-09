@@ -12,7 +12,7 @@ body {
     font-family: 'Neue Haas Grotesk Display Pro';
     font-weight: normal;
     line-height: 1.5;
-    color: #464a4c;
+    color: $brand-body;
 }
 main {
     flex: 1 0 auto;
@@ -20,10 +20,15 @@ main {
 
 h1 {
     font-weight: 900 !important;
+    font-size: 2.8rem;
 }
 
 h2 {
     font-weight: bold !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #000000;
 }
 
 p {
