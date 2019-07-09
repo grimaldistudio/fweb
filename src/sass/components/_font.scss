@@ -8,3 +8,48 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Black.eot');
+    src: local('Neue Haas Grotesk Display Pro 95 Black'), local('NeueHaasDisplay-Black'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Black.woff') format('woff'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Bold.eot');
+    src: local('Neue Haas Grotesk Display Pro 75 Bold'), local('NeueHaasDisplay-Bold'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Bold.woff') format('woff'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Thin.eot');
+    src: local('Neue Haas Grotesk Display Pro 35 Thin'), local('NeueHaasDisplay-Thin'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Thin.woff') format('woff'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.eot');
+    src: local('Neue Haas Grotesk Display Pro 65 Medium'), local('NeueHaasDisplay-Mediu'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.woff') format('woff'),
+        url('../fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

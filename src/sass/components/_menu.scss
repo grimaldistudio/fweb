@@ -93,6 +93,10 @@
     font-weight: 500;
     text-transform: uppercase;
     transition: all 200ms linear;
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
+    font-weight: 500 !important;
 }
 .nav-item:hover .nav-link{
 	color: #8167a9 !important;
@@ -100,11 +104,7 @@
 .nav-item.active .nav-link{
 	color: #777 !important;
 }
-.nav-link {
-	position: relative;
-	padding: 5px 0 !important;
-	display: inline-block;
-}
+
 .nav-item:after{
 	position: absolute;
 	bottom: -5px;
