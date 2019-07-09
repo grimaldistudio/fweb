@@ -23,38 +23,39 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  font-family: 'Neue Haas Grotesk Display Pro';
 }
 
-/* line 11, src/sass/components/_base.scss */
+/* line 12, src/sass/components/_base.scss */
 main {
   -webkit-box-flex: 1;
           flex: 1 0 auto;
 }
 
-/* line 15, src/sass/components/_base.scss */
+/* line 16, src/sass/components/_base.scss */
 .site-header-image {
   display: block;
   margin: auto;
 }
 
-/* line 28, src/sass/components/_base.scss */
+/* line 29, src/sass/components/_base.scss */
 .alignleft {
   float: left;
 }
 
-/* line 32, src/sass/components/_base.scss */
+/* line 33, src/sass/components/_base.scss */
 .alignright {
   float: right;
 }
 
-/* line 36, src/sass/components/_base.scss */
+/* line 37, src/sass/components/_base.scss */
 .aligncenter {
   clear: both;
   display: block;
 }
 
 /* Max img widths */
-/* line 43, src/sass/components/_base.scss */
+/* line 44, src/sass/components/_base.scss */
 img,
 .size-auto,
 .size-full,
@@ -66,7 +67,7 @@ img,
 }
 
 /* Author bio */
-/* line 55, src/sass/components/_base.scss */
+/* line 56, src/sass/components/_base.scss */
 .author-bio .avatar {
   border: 1px solid #dee2e6;
   border-radius: 50%;
@@ -75,65 +76,65 @@ img,
 /* Main content */
 /* Sidebar */
 /* Hide form placeholders on focus */
-/* line 66, src/sass/components/_base.scss */
+/* line 67, src/sass/components/_base.scss */
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 67, src/sass/components/_base.scss */
+/* line 68, src/sass/components/_base.scss */
 input:focus:-moz-placeholder {
   color: transparent;
 }
 
 /* FF 4-18 */
-/* line 68, src/sass/components/_base.scss */
+/* line 69, src/sass/components/_base.scss */
 input:focus::-moz-placeholder {
   color: transparent;
 }
 
 /* FF 19+ */
-/* line 69, src/sass/components/_base.scss */
+/* line 70, src/sass/components/_base.scss */
 textarea:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 70, src/sass/components/_base.scss */
+/* line 71, src/sass/components/_base.scss */
 textarea:focus:-moz-placeholder {
   color: transparent;
 }
 
 /* FF 4-18 */
-/* line 71, src/sass/components/_base.scss */
+/* line 72, src/sass/components/_base.scss */
 textarea:focus::-moz-placeholder {
   color: transparent;
 }
 
 /* FF 19+ */
 /* Comments */
-/* line 75, src/sass/components/_base.scss */
+/* line 76, src/sass/components/_base.scss */
 #comments,
 #reply-title {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-/* line 81, src/sass/components/_base.scss */
+/* line 82, src/sass/components/_base.scss */
 .commentlist,
 .commentlist ul {
   padding-left: 0;
 }
 
-/* line 86, src/sass/components/_base.scss */
+/* line 87, src/sass/components/_base.scss */
 .commentlist li {
   padding: 1rem;
 }
 
-/* line 90, src/sass/components/_base.scss */
+/* line 91, src/sass/components/_base.scss */
 .comment-meta {
   margin-bottom: 1rem;
 }
 
-/* line 94, src/sass/components/_base.scss */
+/* line 95, src/sass/components/_base.scss */
 .comment > .children {
   margin-top: 1rem;
   margin-right: -0.625rem;
