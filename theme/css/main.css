@@ -51,11 +51,14 @@
   font-style: normal;
 }
 
-/*
- * b4st CSS
- */
-/* Sticky Footer */
-/* line 6, src/sass/components/_base.scss */
+/* line 1, src/sass/components/_base.scss */
+html {
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 8, src/sass/components/_base.scss */
 body {
   display: -webkit-box;
   display: flex;
@@ -64,38 +67,51 @@ body {
   -webkit-box-direction: normal;
           flex-direction: column;
   font-family: 'Neue Haas Grotesk Display Pro';
+  font-weight: normal;
+  line-height: 1.5;
+  color: #464a4c;
 }
 
-/* line 12, src/sass/components/_base.scss */
+/* line 17, src/sass/components/_base.scss */
 main {
   -webkit-box-flex: 1;
           flex: 1 0 auto;
 }
 
-/* line 16, src/sass/components/_base.scss */
+/* line 21, src/sass/components/_base.scss */
+h1 {
+  font-weight: 900 !important;
+}
+
+/* line 25, src/sass/components/_base.scss */
+h2 {
+  font-weight: bold !important;
+}
+
+/* line 33, src/sass/components/_base.scss */
 .site-header-image {
   display: block;
   margin: auto;
 }
 
-/* line 29, src/sass/components/_base.scss */
+/* line 46, src/sass/components/_base.scss */
 .alignleft {
   float: left;
 }
 
-/* line 33, src/sass/components/_base.scss */
+/* line 50, src/sass/components/_base.scss */
 .alignright {
   float: right;
 }
 
-/* line 37, src/sass/components/_base.scss */
+/* line 54, src/sass/components/_base.scss */
 .aligncenter {
   clear: both;
   display: block;
 }
 
 /* Max img widths */
-/* line 44, src/sass/components/_base.scss */
+/* line 61, src/sass/components/_base.scss */
 img,
 .size-auto,
 .size-full,
@@ -107,7 +123,7 @@ img,
 }
 
 /* Author bio */
-/* line 56, src/sass/components/_base.scss */
+/* line 73, src/sass/components/_base.scss */
 .author-bio .avatar {
   border: 1px solid #dee2e6;
   border-radius: 50%;
@@ -116,65 +132,65 @@ img,
 /* Main content */
 /* Sidebar */
 /* Hide form placeholders on focus */
-/* line 67, src/sass/components/_base.scss */
+/* line 84, src/sass/components/_base.scss */
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 68, src/sass/components/_base.scss */
+/* line 85, src/sass/components/_base.scss */
 input:focus:-moz-placeholder {
   color: transparent;
 }
 
 /* FF 4-18 */
-/* line 69, src/sass/components/_base.scss */
+/* line 86, src/sass/components/_base.scss */
 input:focus::-moz-placeholder {
   color: transparent;
 }
 
 /* FF 19+ */
-/* line 70, src/sass/components/_base.scss */
+/* line 87, src/sass/components/_base.scss */
 textarea:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 71, src/sass/components/_base.scss */
+/* line 88, src/sass/components/_base.scss */
 textarea:focus:-moz-placeholder {
   color: transparent;
 }
 
 /* FF 4-18 */
-/* line 72, src/sass/components/_base.scss */
+/* line 89, src/sass/components/_base.scss */
 textarea:focus::-moz-placeholder {
   color: transparent;
 }
 
 /* FF 19+ */
 /* Comments */
-/* line 76, src/sass/components/_base.scss */
+/* line 93, src/sass/components/_base.scss */
 #comments,
 #reply-title {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-/* line 82, src/sass/components/_base.scss */
+/* line 99, src/sass/components/_base.scss */
 .commentlist,
 .commentlist ul {
   padding-left: 0;
 }
 
-/* line 87, src/sass/components/_base.scss */
+/* line 104, src/sass/components/_base.scss */
 .commentlist li {
   padding: 1rem;
 }
 
-/* line 91, src/sass/components/_base.scss */
+/* line 108, src/sass/components/_base.scss */
 .comment-meta {
   margin-bottom: 1rem;
 }
 
-/* line 95, src/sass/components/_base.scss */
+/* line 112, src/sass/components/_base.scss */
 .comment > .children {
   margin-top: 1rem;
   margin-right: -0.625rem;
@@ -344,7 +360,6 @@ ul.wp-block-latest-posts.alignwide, ul.wp-block-latest-posts.alignfull, ul.wp-bl
 
 /* line 17, src/sass/components/_editor.scss */
 html {
-  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
