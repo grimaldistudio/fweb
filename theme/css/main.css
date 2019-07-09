@@ -11,6 +11,14 @@
     Created on : 26-giu-2019, 17.04.02
     Author     : Domenico
 */
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url("../fonts/NeueHaasDisplay-Roman.eot");
+  src: local("../fonts/Neue Haas Grotesk Display Pro 55 Roman"), local("NeueHaasDisplay-Roman"), url("../fonts/NeueHaasDisplay-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/NeueHaasDisplay-Roman.woff") format("woff"), url("../fonts/NeueHaasDisplay-Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*
  * b4st CSS
  */
