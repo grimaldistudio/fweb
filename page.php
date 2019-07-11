@@ -12,8 +12,6 @@
       </div><!-- /#content -->
     </div>
 
-    <?php get_sidebar(); ?>
-
   </div><!-- /.row -->
 </main><!-- /.container -->
 
