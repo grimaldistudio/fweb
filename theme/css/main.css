@@ -972,8 +972,8 @@ template {
     background-color: #000;
     vertical-align: 0;
   }
-  /* line 206, src/sass/components/_menu.scss */
-  #menu-principale .dropdown-toggle::after, #menu-principale .nav-link::after {
+  /* line 207, src/sass/components/_menu.scss */
+  #menu-principale .nav-link.dropdown-toggle::after {
     position: absolute;
     display: block;
     top: 10px;
@@ -987,13 +987,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 219, src/sass/components/_menu.scss */
-  #menu-principale .dropdown-toggle[aria-expanded="true"]::after {
+  /* line 220, src/sass/components/_menu.scss */
+  #menu-principale .nav-link.dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  /* line 223, src/sass/components/_menu.scss */
+  /* line 225, src/sass/components/_menu.scss */
   #menu-principale .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
@@ -1001,19 +1001,19 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 229, src/sass/components/_menu.scss */
+  /* line 231, src/sass/components/_menu.scss */
   #menu-principale .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-  /* line 236, src/sass/components/_menu.scss */
+  /* line 238, src/sass/components/_menu.scss */
   #menu-principale .navbar-nav li:last-child {
     margin-right: 0;
   }
-  /* line 242, src/sass/components/_menu.scss */
+  /* line 244, src/sass/components/_menu.scss */
   #menu-principale .menu-item-spacing {
-    padding-left: 0 !important;
-    margin-left: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    margin-left: 0 !important;
   }
 }
 
