@@ -23,7 +23,7 @@
                 </ul>
             
               <ul class="list-inline d-inline-flex align-middle">
-                <li class="list-inline-item">FB</li>
+                  <li class="list-inline-item">FB <span class="pe-7s-angle-down"></span></li>
               </ul>
             
         </div>
