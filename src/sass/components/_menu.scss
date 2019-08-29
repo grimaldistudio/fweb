@@ -36,7 +36,7 @@
             transition : all 0.3s ease-out;
     }
     .navbar{
-            padding: 20px 0 10px 0;
+            padding: 5px 0 5px 0;
     }
     .navbar-brand img{
             height: 47px;
@@ -143,6 +143,11 @@
             max-height: 999px;
         transform: translate3d(0, 0px, 0);
     }
+    
+    #navbarSupportedContent {
+        margin-top: 5px;    
+    }
+    
     #menu-principale {
         .dropdown-menu {
                 padding: 10px!important;
