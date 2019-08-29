@@ -90,17 +90,15 @@
     }
     .nav-link{
         color: $brand-primary !important;
-        font-weight: 400;
+        font-weight: 500 !important;
         text-transform: uppercase;
         transition: all 200ms linear;
         position: relative;
         padding: 5px 0 !important;
-        display: inline-block;
-        font-weight: 500 !important;
+        display: inline-block;        
     }
     .nav-item:hover .nav-link{
-            /*color: $blue !important;*/
-            font-weight: 500 !important;            
+            color: $blue !important;                      
     }
     .nav-item.active .nav-link{
             color: #777 !important;
@@ -155,7 +153,11 @@
                 border: none;
                 border-radius: 3px;
                 box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-            transition: all 200ms linear;
+                transition: all 200ms linear;
+                
+                .dropdown-item::after {
+                    background: none;
+                }
         }
         .dropdown-toggle::after {
                 display: none;
