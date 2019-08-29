@@ -188,6 +188,9 @@
     @media (max-width: 767px) { 
 
          #menu-principale {
+             
+             margin-left: 20px !important;
+             
             .nav-item:after, .menu-item:after{
                     display: none;
             }
@@ -203,12 +206,19 @@
                     background-color: #000;
                     vertical-align: 0;
             }
+            
+            .dropdown-menu {
+                .menu-item::before {
+                    background:none;
+                }
+            }
+            
             .nav-link {
                 &.dropdown-toggle::after {
                         position: absolute;
                         display: block;
                         top: 10px;
-                        left: -23px;
+                        left: -21px;
                         width: 1px;
                         height: 11px;
                         content: "";
