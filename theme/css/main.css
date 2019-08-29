@@ -952,21 +952,16 @@ template {
   margin-left: 3.0rem !important;
 }
 
-/* line 185, src/sass/components/_menu.scss */
-.navbar-nav li:last-child {
-  margin-right: 20px;
-}
-
 @media (max-width: 767px) {
-  /* line 192, src/sass/components/_menu.scss */
+  /* line 186, src/sass/components/_menu.scss */
   #menu-principale {
     margin-left: 20px !important;
   }
-  /* line 196, src/sass/components/_menu.scss */
+  /* line 190, src/sass/components/_menu.scss */
   #menu-principale .nav-item:after, #menu-principale .menu-item:after {
     display: none;
   }
-  /* line 199, src/sass/components/_menu.scss */
+  /* line 193, src/sass/components/_menu.scss */
   #menu-principale .nav-item::before, #menu-principale .menu-item::before {
     position: absolute;
     display: block;
@@ -979,11 +974,11 @@ template {
     background-color: #000;
     vertical-align: 0;
   }
-  /* line 213, src/sass/components/_menu.scss */
+  /* line 207, src/sass/components/_menu.scss */
   #menu-principale .dropdown-menu .menu-item::before {
     background: none;
   }
-  /* line 219, src/sass/components/_menu.scss */
+  /* line 213, src/sass/components/_menu.scss */
   #menu-principale .nav-link.dropdown-toggle::after {
     position: absolute;
     display: block;
@@ -998,13 +993,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 232, src/sass/components/_menu.scss */
+  /* line 226, src/sass/components/_menu.scss */
   #menu-principale .nav-link.dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  /* line 237, src/sass/components/_menu.scss */
+  /* line 231, src/sass/components/_menu.scss */
   #menu-principale .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
@@ -1012,16 +1007,16 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 243, src/sass/components/_menu.scss */
+  /* line 237, src/sass/components/_menu.scss */
   #menu-principale .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-  /* line 250, src/sass/components/_menu.scss */
+  /* line 244, src/sass/components/_menu.scss */
   #menu-principale .navbar-nav li:last-child {
     margin-right: 0;
   }
-  /* line 256, src/sass/components/_menu.scss */
+  /* line 250, src/sass/components/_menu.scss */
   #menu-principale .menu-item-spacing {
     padding-left: 1.5rem !important;
     margin-left: 0 !important;
@@ -1039,8 +1034,8 @@ body.home {
 
 @font-face {
   font-family: 'Pe-icon-7-stroke';
-  src: url("../fonts/Pe-icon-7-stroke.eot?d7yf1v");
-  src: url("../fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v") format("embedded-opentype"), url("../fonts/Pe-icon-7-stroke.woff?d7yf1v") format("woff"), url("../fonts/Pe-icon-7-stroke.ttf?d7yf1v") format("truetype"), url("../fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke") format("svg");
+  src: url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.eot?d7yf1v");
+  src: url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.eot?#iefixd7yf1v") format("embedded-opentype"), url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.woff?d7yf1v") format("woff"), url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.ttf?d7yf1v") format("truetype"), url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke") format("svg");
   font-weight: normal;
   font-style: normal;
 }
