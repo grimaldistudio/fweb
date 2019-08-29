@@ -188,10 +188,10 @@
     @media (max-width: 767px) { 
 
          #menu-principale {
-            .nav-item:after{
+            .nav-item:after, .menu-item:after{
                     display: none;
             }
-            .nav-item::before {
+            .nav-item::before, .menu-item::before {
                     position: absolute;
                     display: block;
                     top: 15px;
@@ -241,7 +241,7 @@
             
             .menu-item-spacing {
                 padding-left: 0 !important;
-                margin-left: 0 !important;    
+                margin-left: 1.5rem !important;    
             }
          }
     }

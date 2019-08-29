@@ -956,11 +956,11 @@ template {
 
 @media (max-width: 767px) {
   /* line 191, src/sass/components/_menu.scss */
-  #menu-principale .nav-item:after {
+  #menu-principale .nav-item:after, #menu-principale .menu-item:after {
     display: none;
   }
   /* line 194, src/sass/components/_menu.scss */
-  #menu-principale .nav-item::before {
+  #menu-principale .nav-item::before, #menu-principale .menu-item::before {
     position: absolute;
     display: block;
     top: 15px;
@@ -1013,7 +1013,7 @@ template {
   /* line 242, src/sass/components/_menu.scss */
   #menu-principale .menu-item-spacing {
     padding-left: 0 !important;
-    margin-left: 0 !important;
+    margin-left: 1.5rem !important;
   }
 }
 
