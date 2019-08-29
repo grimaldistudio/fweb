@@ -717,7 +717,7 @@ template {
 /* #Navigation
 ================================================== */
 /* line 10, src/sass/components/_menu.scss */
-.start-header {
+#menu-principale .start-header {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -728,7 +728,7 @@ template {
 }
 
 /* line 18, src/sass/components/_menu.scss */
-.start-header.scroll-on {
+#menu-principale .start-header.scroll-on {
   box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
   padding: 5px 0;
   -webkit-transition: all 0.3s ease-out;
@@ -736,14 +736,14 @@ template {
 }
 
 /* line 24, src/sass/components/_menu.scss */
-.start-header.scroll-on .navbar-brand img {
+#menu-principale .start-header.scroll-on .navbar-brand img {
   height: 28px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
 /* line 29, src/sass/components/_menu.scss */
-.navigation-wrap {
+#menu-principale .navigation-wrap {
   position: fixed;
   width: 100%;
   top: 0;
@@ -754,12 +754,12 @@ template {
 }
 
 /* line 38, src/sass/components/_menu.scss */
-.navbar {
+#menu-principale .navbar {
   padding: 0;
 }
 
 /* line 41, src/sass/components/_menu.scss */
-.navbar-brand img {
+#menu-principale .navbar-brand img {
   height: 47px;
   width: auto;
   display: block;
@@ -769,7 +769,7 @@ template {
 }
 
 /* line 49, src/sass/components/_menu.scss */
-.navbar-toggler {
+#menu-principale .navbar-toggler {
   float: right;
   border: none;
   padding-right: 0;
@@ -777,13 +777,13 @@ template {
 }
 
 /* line 55, src/sass/components/_menu.scss */
-.navbar-toggler:active,
-.navbar-toggler:focus {
+#menu-principale .navbar-toggler:active,
+#menu-principale .navbar-toggler:focus {
   outline: none;
 }
 
 /* line 59, src/sass/components/_menu.scss */
-.navbar-light .navbar-toggler-icon {
+#menu-principale .navbar-light .navbar-toggler-icon {
   width: 24px;
   height: 17px;
   background-image: none;
@@ -794,8 +794,8 @@ template {
 }
 
 /* line 67, src/sass/components/_menu.scss */
-.navbar-light .navbar-toggler-icon:after,
-.navbar-light .navbar-toggler-icon:before {
+#menu-principale .navbar-light .navbar-toggler-icon:after,
+#menu-principale .navbar-light .navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
   height: 1px;
@@ -809,29 +809,29 @@ template {
 }
 
 /* line 79, src/sass/components/_menu.scss */
-.navbar-light .navbar-toggler-icon:after {
+#menu-principale .navbar-light .navbar-toggler-icon:after {
   top: 8px;
 }
 
 /* line 82, src/sass/components/_menu.scss */
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+#menu-principale .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
 /* line 85, src/sass/components/_menu.scss */
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+#menu-principale .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   -webkit-transform: translateY(8px) rotate(-45deg);
           transform: translateY(8px) rotate(-45deg);
 }
 
 /* line 88, src/sass/components/_menu.scss */
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+#menu-principale .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
 /* line 91, src/sass/components/_menu.scss */
-.nav-link {
+#menu-principale .nav-link {
   color: #101010 !important;
   font-weight: 500;
   text-transform: uppercase;
@@ -844,17 +844,17 @@ template {
 }
 
 /* line 101, src/sass/components/_menu.scss */
-.nav-item:hover .nav-link {
+#menu-principale .nav-item:hover .nav-link {
   color: #8167a9 !important;
 }
 
 /* line 104, src/sass/components/_menu.scss */
-.nav-item.active .nav-link {
+#menu-principale .nav-item.active .nav-link {
   color: #777 !important;
 }
 
 /* line 108, src/sass/components/_menu.scss */
-.nav-item:after {
+#menu-principale .nav-item:after {
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -868,25 +868,25 @@ template {
 }
 
 /* line 119, src/sass/components/_menu.scss */
-.nav-item:hover:after {
+#menu-principale .nav-item:hover:after {
   bottom: 0;
   opacity: 1;
 }
 
 /* line 123, src/sass/components/_menu.scss */
-.nav-item.active:hover:after {
+#menu-principale .nav-item.active:hover:after {
   opacity: 0;
 }
 
 /* line 126, src/sass/components/_menu.scss */
-.nav-item {
+#menu-principale .nav-item {
   position: relative;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
 /* line 131, src/sass/components/_menu.scss */
-.nav-item .dropdown-menu {
+#menu-principale .nav-item .dropdown-menu {
   -webkit-transform: translate3d(0, 10px, 0);
           transform: translate3d(0, 10px, 0);
   visibility: hidden;
@@ -900,7 +900,7 @@ template {
 }
 
 /* line 141, src/sass/components/_menu.scss */
-.nav-item.show .dropdown-menu {
+#menu-principale .nav-item.show .dropdown-menu {
   opacity: 1;
   visibility: visible;
   max-height: 999px;
@@ -909,7 +909,7 @@ template {
 }
 
 /* line 147, src/sass/components/_menu.scss */
-.dropdown-menu {
+#menu-principale .dropdown-menu {
   padding: 10px !important;
   margin: 0;
   font-size: 13px;
@@ -924,12 +924,12 @@ template {
 }
 
 /* line 159, src/sass/components/_menu.scss */
-.dropdown-toggle::after {
+#menu-principale .dropdown-toggle::after {
   display: none;
 }
 
 /* line 163, src/sass/components/_menu.scss */
-.dropdown-item {
+#menu-principale .dropdown-item {
   padding: 3px 15px;
   color: #212121;
   border-radius: 2px;
@@ -938,30 +938,30 @@ template {
 }
 
 /* line 169, src/sass/components/_menu.scss */
-.dropdown-item:hover,
-.dropdown-item:focus {
+#menu-principale .dropdown-item:hover,
+#menu-principale .dropdown-item:focus {
   color: #fff;
-  background-color: rgba(129, 103, 169, 0.6);
+  background-color: #193246;
 }
 
 /* line 175, src/sass/components/_menu.scss */
-.menu-item-spacing {
+#menu-principale .menu-item-spacing {
   padding-left: 0 !important;
   margin-left: 3.0rem !important;
 }
 
 /* line 182, src/sass/components/_menu.scss */
-.navbar-nav li:last-child {
+#menu-principale .navbar-nav li:last-child {
   margin-right: 20px;
 }
 
 @media (max-width: 767px) {
   /* line 189, src/sass/components/_menu.scss */
-  .nav-item:after {
+  #menu-principale .nav-item:after {
     display: none;
   }
   /* line 192, src/sass/components/_menu.scss */
-  .nav-item::before {
+  #menu-principale .nav-item::before {
     position: absolute;
     display: block;
     top: 15px;
@@ -974,7 +974,7 @@ template {
     vertical-align: 0;
   }
   /* line 204, src/sass/components/_menu.scss */
-  .dropdown-toggle::after {
+  #menu-principale .dropdown-toggle::after {
     position: absolute;
     display: block;
     top: 10px;
@@ -989,13 +989,13 @@ template {
     transition: all 200ms linear;
   }
   /* line 217, src/sass/components/_menu.scss */
-  .dropdown-toggle[aria-expanded="true"]::after {
+  #menu-principale .dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
   /* line 221, src/sass/components/_menu.scss */
-  .dropdown-menu {
+  #menu-principale .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
     box-shadow: none;
@@ -1003,12 +1003,12 @@ template {
     transition: all 200ms linear;
   }
   /* line 227, src/sass/components/_menu.scss */
-  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+  #menu-principale .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
   /* line 234, src/sass/components/_menu.scss */
-  .navbar-nav li:last-child {
+  #menu-principale .navbar-nav li:last-child {
     margin-right: 0;
   }
 }
