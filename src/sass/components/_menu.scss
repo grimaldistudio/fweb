@@ -172,6 +172,7 @@
                 background-color: $blue;
         }
     }
+    
     .menu-item-spacing {
         padding-left: 0 !important;
         margin-left: 3.0rem !important;    
@@ -201,7 +202,7 @@
                     background-color: #000;
                     vertical-align: 0;
             }
-            .dropdown-toggle::after {
+            .dropdown-toggle::after, .nav-item::after  {
                     position: absolute;
                     display: block;
                     top: 10px;
@@ -235,6 +236,11 @@
                         margin-right: 0;
                     }
                 }
+            }
+            
+            .menu-item-spacing {
+                padding-left: 0 !important;
+                margin-left: 0 !important;    
             }
     }
 

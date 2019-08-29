@@ -943,23 +943,23 @@ template {
   background-color: #193246;
 }
 
-/* line 175, src/sass/components/_menu.scss */
+/* line 176, src/sass/components/_menu.scss */
 .menu-item-spacing {
   padding-left: 0 !important;
   margin-left: 3.0rem !important;
 }
 
-/* line 182, src/sass/components/_menu.scss */
+/* line 183, src/sass/components/_menu.scss */
 .navbar-nav li:last-child {
   margin-right: 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 189, src/sass/components/_menu.scss */
+  /* line 190, src/sass/components/_menu.scss */
   .nav-item:after {
     display: none;
   }
-  /* line 192, src/sass/components/_menu.scss */
+  /* line 193, src/sass/components/_menu.scss */
   .nav-item::before {
     position: absolute;
     display: block;
@@ -972,8 +972,8 @@ template {
     background-color: #000;
     vertical-align: 0;
   }
-  /* line 204, src/sass/components/_menu.scss */
-  .dropdown-toggle::after {
+  /* line 205, src/sass/components/_menu.scss */
+  .dropdown-toggle::after, .nav-item::after {
     position: absolute;
     display: block;
     top: 10px;
@@ -987,13 +987,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 217, src/sass/components/_menu.scss */
+  /* line 218, src/sass/components/_menu.scss */
   .dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  /* line 221, src/sass/components/_menu.scss */
+  /* line 222, src/sass/components/_menu.scss */
   .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
@@ -1001,14 +1001,19 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 227, src/sass/components/_menu.scss */
+  /* line 228, src/sass/components/_menu.scss */
   .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-  /* line 234, src/sass/components/_menu.scss */
+  /* line 235, src/sass/components/_menu.scss */
   .navbar-nav li:last-child {
     margin-right: 0;
+  }
+  /* line 241, src/sass/components/_menu.scss */
+  .menu-item-spacing {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
   }
 }
 
