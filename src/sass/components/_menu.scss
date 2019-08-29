@@ -6,7 +6,7 @@
 
 /* #Navigation
 ================================================== */
-#menu-principale {
+
     .start-header {
             opacity: 1;
             transform: translateY(0);
@@ -113,7 +113,7 @@
             width: 100%;
             height: 2px;
             content: '';
-            background-color: #8167a9;
+            background-color: $blue;
             opacity: 0;
         transition: all 200ms linear;
     }
@@ -145,32 +145,33 @@
             max-height: 999px;
         transform: translate3d(0, 0px, 0);
     }
-    .dropdown-menu {
-            padding: 10px!important;
-            margin: 0;
-            font-size: 13px;
-            letter-spacing: 1px;            
-            background-color: #fcfaff;
-            border: none;
-            border-radius: 3px;
-            box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-        transition: all 200ms linear;
-    }
-    .dropdown-toggle::after {
-            display: none;
-    }
+    #menu-principale {
+        .dropdown-menu {
+                padding: 10px!important;
+                margin: 0;
+                font-size: 13px;
+                letter-spacing: 1px;            
+                background-color: #fafdff;
+                border: none;
+                border-radius: 3px;
+                box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+            transition: all 200ms linear;
+        }
+        .dropdown-toggle::after {
+                display: none;
+        }
 
-    .dropdown-item {
-            padding: 6px 15px;            
-            border-radius: 2px;
-        transition: all 200ms linear;
+        .dropdown-item {
+                padding: 6px 15px;            
+                border-radius: 2px;
+            transition: all 200ms linear;
+        }
+        .dropdown-item:hover, 
+        .dropdown-item:focus {
+                color: #fff;
+                background-color: $blue;
+        }
     }
-    .dropdown-item:hover, 
-    .dropdown-item:focus {
-            color: #fff;
-            background-color: $blue;
-    }
-
     .menu-item-spacing {
         padding-left: 0 !important;
         margin-left: 3.0rem !important;    
@@ -236,5 +237,5 @@
                 }
             }
     }
-}
+
 
