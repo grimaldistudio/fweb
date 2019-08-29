@@ -833,7 +833,7 @@ template {
 /* line 91, src/sass/components/_menu.scss */
 #menu-principale .nav-link {
   color: #101010 !important;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -845,15 +845,16 @@ template {
 
 /* line 101, src/sass/components/_menu.scss */
 #menu-principale .nav-item:hover .nav-link {
-  color: #8167a9 !important;
+  /*color: $blue !important;*/
+  font-weight: 500 !important;
 }
 
-/* line 104, src/sass/components/_menu.scss */
+/* line 105, src/sass/components/_menu.scss */
 #menu-principale .nav-item.active .nav-link {
   color: #777 !important;
 }
 
-/* line 108, src/sass/components/_menu.scss */
+/* line 109, src/sass/components/_menu.scss */
 #menu-principale .nav-item:after {
   position: absolute;
   bottom: -5px;
@@ -867,25 +868,25 @@ template {
   transition: all 200ms linear;
 }
 
-/* line 119, src/sass/components/_menu.scss */
+/* line 120, src/sass/components/_menu.scss */
 #menu-principale .nav-item:hover:after {
   bottom: 0;
   opacity: 1;
 }
 
-/* line 123, src/sass/components/_menu.scss */
+/* line 124, src/sass/components/_menu.scss */
 #menu-principale .nav-item.active:hover:after {
   opacity: 0;
 }
 
-/* line 126, src/sass/components/_menu.scss */
+/* line 127, src/sass/components/_menu.scss */
 #menu-principale .nav-item {
   position: relative;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-/* line 131, src/sass/components/_menu.scss */
+/* line 132, src/sass/components/_menu.scss */
 #menu-principale .nav-item .dropdown-menu {
   -webkit-transform: translate3d(0, 10px, 0);
           transform: translate3d(0, 10px, 0);
@@ -899,7 +900,7 @@ template {
   transition: all 200ms linear;
 }
 
-/* line 141, src/sass/components/_menu.scss */
+/* line 142, src/sass/components/_menu.scss */
 #menu-principale .nav-item.show .dropdown-menu {
   opacity: 1;
   visibility: visible;
@@ -908,13 +909,12 @@ template {
           transform: translate3d(0, 0px, 0);
 }
 
-/* line 147, src/sass/components/_menu.scss */
+/* line 148, src/sass/components/_menu.scss */
 #menu-principale .dropdown-menu {
   padding: 10px !important;
   margin: 0;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #212121;
   background-color: #fcfaff;
   border: none;
   border-radius: 3px;
@@ -930,37 +930,36 @@ template {
 
 /* line 163, src/sass/components/_menu.scss */
 #menu-principale .dropdown-item {
-  padding: 3px 15px;
-  color: #212121;
+  padding: 6px 15px;
   border-radius: 2px;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-/* line 169, src/sass/components/_menu.scss */
+/* line 168, src/sass/components/_menu.scss */
 #menu-principale .dropdown-item:hover,
 #menu-principale .dropdown-item:focus {
   color: #fff;
   background-color: #193246;
 }
 
-/* line 175, src/sass/components/_menu.scss */
+/* line 174, src/sass/components/_menu.scss */
 #menu-principale .menu-item-spacing {
   padding-left: 0 !important;
   margin-left: 3.0rem !important;
 }
 
-/* line 182, src/sass/components/_menu.scss */
+/* line 181, src/sass/components/_menu.scss */
 #menu-principale .navbar-nav li:last-child {
   margin-right: 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 189, src/sass/components/_menu.scss */
+  /* line 188, src/sass/components/_menu.scss */
   #menu-principale .nav-item:after {
     display: none;
   }
-  /* line 192, src/sass/components/_menu.scss */
+  /* line 191, src/sass/components/_menu.scss */
   #menu-principale .nav-item::before {
     position: absolute;
     display: block;
@@ -973,7 +972,7 @@ template {
     background-color: #000;
     vertical-align: 0;
   }
-  /* line 204, src/sass/components/_menu.scss */
+  /* line 203, src/sass/components/_menu.scss */
   #menu-principale .dropdown-toggle::after {
     position: absolute;
     display: block;
@@ -988,13 +987,13 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 217, src/sass/components/_menu.scss */
+  /* line 216, src/sass/components/_menu.scss */
   #menu-principale .dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  /* line 221, src/sass/components/_menu.scss */
+  /* line 220, src/sass/components/_menu.scss */
   #menu-principale .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
@@ -1002,12 +1001,12 @@ template {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  /* line 227, src/sass/components/_menu.scss */
+  /* line 226, src/sass/components/_menu.scss */
   #menu-principale .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-  /* line 234, src/sass/components/_menu.scss */
+  /* line 233, src/sass/components/_menu.scss */
   #menu-principale .navbar-nav li:last-child {
     margin-right: 0;
   }

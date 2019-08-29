@@ -90,7 +90,7 @@
     }
     .nav-link{
         color: $brand-primary !important;
-        font-weight: 500;
+        font-weight: 400;
         text-transform: uppercase;
         transition: all 200ms linear;
         position: relative;
@@ -99,7 +99,8 @@
         font-weight: 500 !important;
     }
     .nav-item:hover .nav-link{
-            color: #8167a9 !important;
+            /*color: $blue !important;*/
+            font-weight: 500 !important;            
     }
     .nav-item.active .nav-link{
             color: #777 !important;
@@ -148,8 +149,7 @@
             padding: 10px!important;
             margin: 0;
             font-size: 13px;
-            letter-spacing: 1px;
-            color: #212121;
+            letter-spacing: 1px;            
             background-color: #fcfaff;
             border: none;
             border-radius: 3px;
@@ -161,8 +161,7 @@
     }
 
     .dropdown-item {
-            padding: 3px 15px;
-            color: #212121;
+            padding: 6px 15px;            
             border-radius: 2px;
         transition: all 200ms linear;
     }
