@@ -187,6 +187,7 @@
     }
     @media (max-width: 767px) { 
 
+         #menu-principale {
             .nav-item:after{
                     display: none;
             }
@@ -202,7 +203,7 @@
                     background-color: #000;
                     vertical-align: 0;
             }
-            .dropdown-toggle::after, .nav-item::after  {
+            .dropdown-toggle::after, .nav-link::after  {
                     position: absolute;
                     display: block;
                     top: 10px;
@@ -242,6 +243,7 @@
                 padding-left: 0 !important;
                 margin-left: 0 !important;    
             }
+         }
     }
 
 
