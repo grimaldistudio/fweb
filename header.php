@@ -12,24 +12,7 @@
 <?php b4st_navbar_before();?>
       
 <div class="navigation-wrap bg-light start-header start-style">
-    
-      <div class="container-fluid border-bottom">
-        <div class="text-right">
-            
-                <ul class="list-inline d-inline-flex align-middle">
-                  <li class="list-inline-item">+39 06.808.080</li>
-                  <li class="list-inline-item"><button class="btn btn-primary">Richiedi Demo</button></li>
-                  <li class="list-inline-item"><button class="btn btn-danger">Assistenza</button></li>
-                </ul>
-            
-              <ul class="list-inline d-inline-flex align-middle">
-                  <li class="list-inline-item">FB <span class="pe-7s-angle-down"></span></li>
-                  
-              </ul>
-            
-        </div>
-    </div>
-    
+        
 <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid">
 
