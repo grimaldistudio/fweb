@@ -36,7 +36,7 @@
             transition : all 0.3s ease-out;
     }
     .navbar{
-            padding: 0;
+            padding: 20px 0 10px 0;
     }
     .navbar-brand img{
             height: 47px;
@@ -155,7 +155,7 @@
                 box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
                 transition: all 200ms linear;
                 
-                .dropdown-item::after {
+                .menu-item::after {
                     background: none;
                 }
         }
