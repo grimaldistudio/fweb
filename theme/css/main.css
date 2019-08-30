@@ -1046,6 +1046,17 @@ template {
 /*
 * Home page template
 */
+/* line 11, src/sass/components/_home.scss */
+body #home-scrollpage-menu {
+  bottom: -30px;
+}
+
+/* line 14, src/sass/components/_home.scss */
+body #home-scrollpage-menu .nav-item:hover:after {
+  bottom: -23px !important;
+  opacity: 1;
+}
+
 /* line 1, src/sass/components/_utilities.scss */
 .b {
   border: 1px solid rgba(0, 0, 0, 0.05);

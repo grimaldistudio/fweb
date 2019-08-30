@@ -8,4 +8,14 @@ body {
        
     }
     
+    #home-scrollpage-menu {
+        bottom: -30px;
+        .nav-item{
+            &:hover:after {
+            bottom: -23px !important;
+            opacity: 1;
+            }
+        }
+    }
+    
 }
