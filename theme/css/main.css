@@ -346,11 +346,16 @@ ul.wp-block-latest-posts.alignwide, ul.wp-block-latest-posts.alignfull, ul.wp-bl
 }
 
 @media (max-width: 767px) {
-  /* line 2, src/sass/components/_visualcomposer.scss */
+  /* line 2, src/sass/components/_grid.scss */
   .row-mobile-reverse {
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap-reverse;
+  }
+  /* line 7, src/sass/components/_grid.scss */
+  .vc_row-fluid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
 
@@ -843,7 +848,7 @@ template {
 .nav-link {
   color: #101010 !important;
   font-weight: 500 !important;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   position: relative;
