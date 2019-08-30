@@ -345,6 +345,17 @@ ul.wp-block-latest-posts.alignwide, ul.wp-block-latest-posts.alignfull, ul.wp-bl
   }
 }
 
+@media (max-width: 767px) {
+  /* line 2, src/sass/components/_visualcomposer.scss */
+  .row-mobile-reverse {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
+  }
+}
+
 /*
  * b4st Editor Styles (Gutenberg Ready)
  * ====================================
