@@ -447,37 +447,37 @@ h1, h2, h3, h4, h5, h6,
 
 /* line 16, node_modules/bootstrap/scss/_type.scss */
 h1, .h1 {
-  font-size: 2.875rem;
+  font-size: 3.45rem;
 }
 
 @media (max-width: 1200px) {
   /* line 16, node_modules/bootstrap/scss/_type.scss */
   h1, .h1 {
-    font-size: calc(1.4125rem + 1.95vw) ;
+    font-size: calc(1.47rem + 2.64vw) ;
   }
 }
 
 /* line 17, node_modules/bootstrap/scss/_type.scss */
 h2, .h2 {
-  font-size: 2.3rem;
+  font-size: 3.105rem;
 }
 
 @media (max-width: 1200px) {
   /* line 17, node_modules/bootstrap/scss/_type.scss */
   h2, .h2 {
-    font-size: calc(1.355rem + 1.26vw) ;
+    font-size: calc(1.4355rem + 2.226vw) ;
   }
 }
 
 /* line 18, node_modules/bootstrap/scss/_type.scss */
 h3, .h3 {
-  font-size: 2.0125rem;
+  font-size: 2.3rem;
 }
 
 @media (max-width: 1200px) {
   /* line 18, node_modules/bootstrap/scss/_type.scss */
   h3, .h3 {
-    font-size: calc(1.32625rem + 0.915vw) ;
+    font-size: calc(1.355rem + 1.26vw) ;
   }
 }
 
