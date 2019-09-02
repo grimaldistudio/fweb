@@ -22,3 +22,10 @@ $spacers: (
   7: ($spacer * 4.5),
   8: ($spacer * 5.5)
 )
+
+$h1-font-size:                $font-size-base * 3.0 !default;
+$h2-font-size:                $font-size-base * 2.70 !default;
+$h3-font-size:                $font-size-base * 2.0 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
