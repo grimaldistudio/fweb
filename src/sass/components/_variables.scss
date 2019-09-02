@@ -13,6 +13,9 @@ $blue:                  #193246;
 $border-color:          #EBEBEB;
 
 // Bootstrap variable overrides
+$font-size-base: 1.15rem;
+$enable-responsive-font-sizes: true;
+
 $spacer: 1rem;
 $spacers: (
   6: ($spacer * 3.5),
