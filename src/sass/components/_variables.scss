@@ -11,3 +11,10 @@ $bg-gray-dark:          #e2e2e2;
 $blue:                  #193246;
 
 $border-color:          #EBEBEB;
+
+// Bootstrap variable overrides
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 3.5),
+  7: ($spacer * 4.5)
+)

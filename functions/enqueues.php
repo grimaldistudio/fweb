@@ -8,9 +8,6 @@ if ( ! function_exists('b4st_enqueues') ) {
 
 		// Styles
 
-		wp_register_style('bootstrap', get_template_directory_uri() . '/theme/bootstrap/bootstrap.min.css', false, '4.3.1', null);
-		wp_enqueue_style('bootstrap');
-
 		wp_register_style('fontawesome5', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css', false, '5.8.1', null);
 		wp_enqueue_style('fontawesome5');
 
