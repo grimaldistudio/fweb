@@ -14345,6 +14345,11 @@ body #home-scrollpage-menu .nav-item:hover:after {
   border-left: 1px solid #EBEBEB;
 }
 
+/* line 8, src/sass/components/_utilities.scss */
+.b-info {
+  border-color: #193246;
+}
+
 @font-face {
   font-family: 'Pe-icon-7-stroke';
   src: url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.eot?d7yf1v");
