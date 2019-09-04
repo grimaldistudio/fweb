@@ -17,12 +17,29 @@
         &:before {
             content: "\e685";
             font-family: 'Pe-icon-7-stroke';
-            font-size: 23px;
+            font-size: 20px;
             font-weight: 600;
             position: absolute;
             left: 30px;
-            margin-top: -4px;
+            margin-top: -2px;
             color: $red;
+        }
+    }
+}
+
+.btn-outline, .btn-outline button {
+    
+    font-weight: 500;
+    color: #000000;
+    border: 0;
+    font-size: initial;
+    
+    i {
+        font-size: 28px !important;
+        line-height: 10px !important;
+        right: 5px !important;
+        &:hover {
+            right: -20px;
         }
     }
 }

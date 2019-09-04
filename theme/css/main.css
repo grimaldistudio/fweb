@@ -14362,12 +14362,32 @@ body #home-scrollpage-menu .nav-item:hover:after {
 .list-default li:before {
   content: "\e685";
   font-family: 'Pe-icon-7-stroke';
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
   position: absolute;
   left: 30px;
-  margin-top: -4px;
+  margin-top: -2px;
   color: #a30d05;
+}
+
+/* line 30, src/sass/components/_utilities.scss */
+.btn-outline, .btn-outline button {
+  font-weight: 500;
+  color: #000000;
+  border: 0;
+  font-size: initial;
+}
+
+/* line 37, src/sass/components/_utilities.scss */
+.btn-outline i, .btn-outline button i {
+  font-size: 28px !important;
+  line-height: 10px !important;
+  right: 5px !important;
+}
+
+/* line 41, src/sass/components/_utilities.scss */
+.btn-outline i:hover, .btn-outline button i:hover {
+  right: -20px;
 }
 
 @font-face {
