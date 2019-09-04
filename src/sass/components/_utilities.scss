@@ -12,13 +12,16 @@
     li {
         list-style: none;
         padding-left: 8px;
+        font-weight: 500px;
         &:before {
             content: "\e684";
             font-family: 'Pe-icon-7-stroke';
             font-size: 23px;
-            font-weight: normal;
+            font-weight: 400;
             position: absolute;
-            left: 6px;
+            left: 30px;
+            margin-top: -4px;
+            color: $red;
         }
     }
 }
