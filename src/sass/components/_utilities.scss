@@ -29,17 +29,21 @@
 
 .btn-outline, .btn-outline button {
     
-    font-weight: 500;
-    color: #000000;
-    border: 0;
-    font-size: initial;
+    font-weight: 500 !important;
+    color: #000000 !important;
+    border: 0 !important;
+    font-size: initial !important;
+    
+    &:hover {
+            i{
+            right: -20px !important;
+            }
+        }
     
     i {
         font-size: 28px !important;
         line-height: 10px !important;
         right: 5px !important;
-        &:hover {
-            right: -20px;
-        }
+        
     }
 }
