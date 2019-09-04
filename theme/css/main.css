@@ -14355,14 +14355,15 @@ body #home-scrollpage-menu .nav-item:hover:after {
   list-style: none;
   padding-left: 8px;
   font-weight: 500px;
+  margin: 3px 0 3px 0;
 }
 
-/* line 16, src/sass/components/_utilities.scss */
+/* line 17, src/sass/components/_utilities.scss */
 .list-default li:before {
-  content: "\e684";
+  content: "\e685";
   font-family: 'Pe-icon-7-stroke';
   font-size: 23px;
-  font-weight: 400;
+  font-weight: 600;
   position: absolute;
   left: 30px;
   margin-top: -4px;
