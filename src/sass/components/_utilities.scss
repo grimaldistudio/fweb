@@ -35,8 +35,9 @@
     font-size: initial !important;
     
     &:hover {
+            background: none !important;
             i{
-            right: -20px !important;
+                transform: translate(30px, 0)
             }
         }
     

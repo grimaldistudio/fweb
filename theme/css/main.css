@@ -14378,12 +14378,18 @@ body #home-scrollpage-menu .nav-item:hover:after {
   font-size: initial !important;
 }
 
-/* line 38, src/sass/components/_utilities.scss */
-.btn-outline:hover i, .btn-outline button:hover i {
-  right: -20px !important;
+/* line 37, src/sass/components/_utilities.scss */
+.btn-outline:hover, .btn-outline button:hover {
+  background: none !important;
 }
 
-/* line 43, src/sass/components/_utilities.scss */
+/* line 39, src/sass/components/_utilities.scss */
+.btn-outline:hover i, .btn-outline button:hover i {
+  -webkit-transform: translate(30px, 0);
+          transform: translate(30px, 0);
+}
+
+/* line 44, src/sass/components/_utilities.scss */
 .btn-outline i, .btn-outline button i {
   font-size: 28px !important;
   line-height: 10px !important;
