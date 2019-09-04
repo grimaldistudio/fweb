@@ -27,6 +27,7 @@
     }
 }
 
+// buttons
 .btn-outline, .btn-outline button {
     
     font-weight: 500 !important;
@@ -37,7 +38,7 @@
     &:hover {
             background: none !important;
             i{
-                transform: translate(15px, -7px)
+                transform: translate(15px, -7px) !important;
             }
         }
     

@@ -14370,7 +14370,7 @@ body #home-scrollpage-menu .nav-item:hover:after {
   color: #a30d05;
 }
 
-/* line 30, src/sass/components/_utilities.scss */
+/* line 31, src/sass/components/_utilities.scss */
 .btn-outline, .btn-outline button {
   font-weight: 500 !important;
   color: #000000 !important;
@@ -14378,18 +14378,18 @@ body #home-scrollpage-menu .nav-item:hover:after {
   font-size: initial !important;
 }
 
-/* line 37, src/sass/components/_utilities.scss */
+/* line 38, src/sass/components/_utilities.scss */
 .btn-outline:hover, .btn-outline button:hover {
   background: none !important;
 }
 
-/* line 39, src/sass/components/_utilities.scss */
+/* line 40, src/sass/components/_utilities.scss */
 .btn-outline:hover i, .btn-outline button:hover i {
-  -webkit-transform: translate(15px, -7px);
-          transform: translate(15px, -7px);
+  -webkit-transform: translate(15px, -7px) !important;
+          transform: translate(15px, -7px) !important;
 }
 
-/* line 44, src/sass/components/_utilities.scss */
+/* line 45, src/sass/components/_utilities.scss */
 .btn-outline i, .btn-outline button i {
   font-size: 28px !important;
   line-height: 10px !important;
