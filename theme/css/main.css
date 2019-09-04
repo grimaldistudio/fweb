@@ -14350,6 +14350,22 @@ body #home-scrollpage-menu .nav-item:hover:after {
   border-color: #193246;
 }
 
+/* line 12, src/sass/components/_utilities.scss */
+.list-default li {
+  list-style: none;
+  padding-left: 8px;
+}
+
+/* line 15, src/sass/components/_utilities.scss */
+.list-default li:before {
+  content: "\e684";
+  font-family: 'Pe-icon-7-stroke';
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: 6px;
+}
+
 @font-face {
   font-family: 'Pe-icon-7-stroke';
   src: url("../fonts/Pe-icon-7-stroke/Pe-icon-7-stroke.eot?d7yf1v");

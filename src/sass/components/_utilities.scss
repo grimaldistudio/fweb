@@ -6,3 +6,19 @@
 .b-l{border-left: 1px solid $border-color}
 
 .b-info{border-color: $blue}
+
+
+.list-default {
+    li {
+        list-style: none;
+        padding-left: 8px;
+        &:before {
+            content: "\e684";
+            font-family: 'Pe-icon-7-stroke';
+            font-size: 23px;
+            font-weight: normal;
+            position: absolute;
+            left: 6px;
+        }
+    }
+}
