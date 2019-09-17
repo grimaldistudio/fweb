@@ -14323,6 +14323,13 @@ body #home-scrollpage-menu .nav-item:hover:after {
   width: 1.715em;
   height: 1.715em;
   line-height: 1.715em;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 35, src/sass/components/_home.scss */
+.social-links li a i {
+  font-size: 14px;
 }
 
 /* line 1, src/sass/components/_utilities.scss */
