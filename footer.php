@@ -20,25 +20,34 @@
 
 <?php wp_footer(); ?>
 
-<div class="bg-black pb-4 mt-4">
+<div class="bg-black pb-4 pt-4">
 <div class="container text-white">
     <div class="row">
         <div class="col-md-4">
             <img src="/wp-content/uploads/2019/09/flottaweb-w-logo.png" width="40" />
             <div class="pt-3">
-                <span class="text-xs text-muted">Flottaweb ® è un marchio di Sistemisoft Srl. <br/>P.IVA: 02488760600. <br/>© <?php echo date ("Y"); ?> All Rights Reserved.</span>           
+                <span class="text-xs text-muted">Flottaweb ® è un marchio di Sistemisoft Srl 
+                <span class="text-xs text-muted mt-1">P.IVA: 02488760600</span>
+                <span class="text-xs text-muted mt-1">© <?php echo date ("Y"); ?> All Rights Reserved.</span>           
             </div>
         </div>
       
           <div class="col-md-4">
              <span class="">Seguici anche su</span>
-                <ul class="list-inline social-links">
+                <ul class="list-inline social-links mt-3">
                     <li class="list-inline-item"><a href="https://www.facebook.com/flottaweb/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/flottaweb" target="_blank"><i class="fab fa-twitter"></i></a></li>   
                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/flottaweb"><i class="fab fa-linkedin-in"></i></a></li>    
                     <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCrIfQzcQS-a69jtL4TD0tJw "><i class="fab fa-youtube"></i></a></li>   
 
                 </ul>
+        </div>
+        
+        <div class="col-md-4">
+            <ul class="list-unstyled">
+                <li>Termini e Condizioni</li>
+                <li>Privacy Policy</li>
+            </ul>
         </div>
         
     </div>
