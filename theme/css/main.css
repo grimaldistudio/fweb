@@ -14315,6 +14315,16 @@ body #home-scrollpage-menu .nav-item:hover:after {
   opacity: 1;
 }
 
+/* line 25, src/sass/components/_home.scss */
+.social-links li a {
+  border: 50%;
+  color: #232a34;
+  background-color: rgba(141, 149, 157, 0.7);
+  width: 1.715em;
+  height: 1.715em;
+  line-height: 1.715em;
+}
+
 /* line 1, src/sass/components/_utilities.scss */
 .b {
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -14394,6 +14404,16 @@ body #home-scrollpage-menu .nav-item:hover:after {
   font-size: 28px !important;
   line-height: 10px !important;
   right: 5px !important;
+}
+
+/* line 53, src/sass/components/_utilities.scss */
+.text-sm {
+  font-size: 1rem;
+}
+
+/* line 57, src/sass/components/_utilities.scss */
+.text-xs {
+  font-size: 0.80rem;
 }
 
 @font-face {
