@@ -14317,7 +14317,7 @@ body #home-scrollpage-menu .nav-item:hover:after {
 
 /* line 25, src/sass/components/_home.scss */
 .social-links li a {
-  border: 50%;
+  border-radius: 50%;
   color: #232a34;
   background-color: rgba(141, 149, 157, 0.7);
   width: 1.715em;
@@ -14414,6 +14414,11 @@ body #home-scrollpage-menu .nav-item:hover:after {
 /* line 57, src/sass/components/_utilities.scss */
 .text-xs {
   font-size: 0.80rem;
+}
+
+/* line 61, src/sass/components/_utilities.scss */
+.bg-black {
+  background-color: #000000;
 }
 
 @font-face {

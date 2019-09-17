@@ -21,7 +21,7 @@
 <?php //wp_footer(); ?>
 
 
-<div class="container">
+<div class="container bg-black">
     <div class="row">
         <div class="col-md-12">
             <span class="">Seguici anche su</span>
