@@ -13457,6 +13457,28 @@ textarea:focus::-moz-placeholder {
 }
 
 /* Site footer */
+/* line 126, src/sass/components/_base.scss */
+.social-links li a {
+  border-radius: 50%;
+  color: #232a34;
+  background-color: rgba(141, 149, 157, 0.7);
+  width: 1.715em;
+  height: 1.715em;
+  line-height: 1.715em;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 136, src/sass/components/_base.scss */
+.social-links li a i {
+  font-size: 14px;
+}
+
+/* line 139, src/sass/components/_base.scss */
+.social-links li a:hover {
+  background-color: #8d959d;
+}
+
 /* line 1, src/sass/components/_blocks.scss */
 .entry-content > * {
   margin: 36px auto;
@@ -14301,6 +14323,12 @@ template {
   }
 }
 
+/* line 266, src/sass/components/_menu.scss */
+.user-login a {
+  font-size: 2.0rem;
+  color: #000000;
+}
+
 /*
 * Home page template
 */
@@ -14313,28 +14341,6 @@ body #home-scrollpage-menu {
 body #home-scrollpage-menu .nav-item:hover:after {
   bottom: -23px !important;
   opacity: 1;
-}
-
-/* line 25, src/sass/components/_home.scss */
-.social-links li a {
-  border-radius: 50%;
-  color: #232a34;
-  background-color: rgba(141, 149, 157, 0.7);
-  width: 1.715em;
-  height: 1.715em;
-  line-height: 1.715em;
-  display: inline-block;
-  text-align: center;
-}
-
-/* line 35, src/sass/components/_home.scss */
-.social-links li a i {
-  font-size: 14px;
-}
-
-/* line 38, src/sass/components/_home.scss */
-.social-links li a:hover {
-  background-color: #8d959d;
 }
 
 /* line 1, src/sass/components/_utilities.scss */
