@@ -35,6 +35,9 @@ body {
             i {
                 font-size: 14px;
             }
+            &:hover {
+                background-color: rgba(141, 149, 157, 1);
+            }
         }
     }
 }

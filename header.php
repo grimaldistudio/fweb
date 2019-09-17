@@ -37,6 +37,7 @@
       ?>
 
      <!-- <?php b4st_navbar_search();?>     -->
+     <span><a href="/login"><i class="pe-7s-user"></i></a></span>
     </div>
 
   </div>

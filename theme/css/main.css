@@ -14332,6 +14332,11 @@ body #home-scrollpage-menu .nav-item:hover:after {
   font-size: 14px;
 }
 
+/* line 38, src/sass/components/_home.scss */
+.social-links li a:hover {
+  background-color: #8d959d;
+}
+
 /* line 1, src/sass/components/_utilities.scss */
 .b {
   border: 1px solid rgba(0, 0, 0, 0.05);
