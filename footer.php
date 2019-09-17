@@ -20,8 +20,8 @@
 
 <?php //wp_footer(); ?>
 
-
-<div class="container bg-black">
+<div class="bg-black">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
             <span class="">Seguici anche su</span>
@@ -34,6 +34,7 @@
             </ul>
         </div>
     </div>
+</div>
 </div>
 
 </body>
