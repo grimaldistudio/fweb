@@ -20,13 +20,14 @@
 
 <?php wp_footer(); ?>
 
-<div class="bg-black">
-<div class="container">
+<div class="bg-black pb-4 mt-4">
+<div class="container text-white">
     <div class="row">
         <div class="col-md-4">
-            <img src="/wp-content/uploads/2019/09/flottaweb-w-logo.png" width="80" />
-            <span class="text-sm">Flottaweb ® è un marchio di Sistemisoft Srl. P.IVA: 02488760600. © <?php date ("Y"); ?> All Rights Reserved. </span>
-            Terms of Use and Privacy Policy
+            <img src="/wp-content/uploads/2019/09/flottaweb-w-logo.png" width="40" />
+            <div class="pt-3">
+                <span class="text-xs text-muted">Flottaweb ® è un marchio di Sistemisoft Srl. <br/>P.IVA: 02488760600. <br/>© <?php echo date ("Y"); ?> All Rights Reserved.</span>           
+            </div>
         </div>
       
           <div class="col-md-4">
