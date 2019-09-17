@@ -119,3 +119,26 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 	margin-bottom: -1.625rem;
 }
 /* Site footer */
+
+
+.social-links {
+    li {
+        a {
+            border-radius: 50%;           
+            color: #232a34;
+            background-color: rgba(141, 149, 157, 0.7);
+            width: 1.715em;
+            height: 1.715em;
+            line-height: 1.715em;
+            display: inline-block;
+            text-align: center;
+            
+            i {
+                font-size: 14px;
+            }
+            &:hover {
+                background-color: rgba(141, 149, 157, 1);
+            }
+        }
+    }
+}
