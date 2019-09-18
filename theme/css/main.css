@@ -14324,12 +14324,12 @@ template {
 }
 
 /* line 265, src/sass/components/_menu.scss */
-user-login {
+.user-login {
   margin: 0 0 0 25px;
 }
 
 /* line 267, src/sass/components/_menu.scss */
-user-login a {
+.user-login a {
   font-size: 0.80rem;
 }
 
@@ -14379,7 +14379,7 @@ body #home-scrollpage-menu .nav-item:hover:after {
 
 /* line 8, src/sass/components/_utilities.scss */
 .b-t-muted {
-  border: 1px solid rgba(109, 118, 126, 0.6);
+  border-top: 1px solid rgba(109, 118, 126, 0.2);
 }
 
 /* line 11, src/sass/components/_utilities.scss */

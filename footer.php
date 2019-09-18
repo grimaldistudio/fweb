@@ -23,7 +23,7 @@
 <div class="bg-black pb-4 pt-4">
 <div class="container text-white">
     
-    <div class="row pt-3 b-t">
+    <div class="row pt-3 b-t-muted">
         <div class="col-md-4">
             <img src="/wp-content/uploads/2019/09/flottaweb-w-logo.png" width="40" />
             <div class="mt-1 l-h-xs">
@@ -35,10 +35,10 @@
           <div class="col-md-5">
              <span class="text-sm">Seguici anche su</span>
              <ul class="list-inline  mt-3">
-                 <li class="list-inline-item text-sm"><a href="https://www.facebook.com/flottaweb" target="_blank">Facebook</a></li>
-                 <li class="list-inline-item text-sm"><a href="https://twitter.com/flottaweb" target="_blank">Twitter</a></li>
-                 <li class="list-inline-item text-sm"><a href="https://www.linkedin.com/company/flottaweb" target="_blank">Linkedin</a></li>
-                 <li class="list-inline-item text-sm"><a href="https://www.youtube.com/channel/UCrIfQzcQS-a69jtL4TD0tJw" target="_blank">YouTube</a></li>
+                 <li class="list-inline-item text-sm"><a href="https://www.facebook.com/flottaweb" class="text-muted" target="_blank">Facebook</a></li>
+                 <li class="list-inline-item text-sm"><a href="https://twitter.com/flottaweb" class="text-muted" target="_blank">Twitter</a></li>
+                 <li class="list-inline-item text-sm"><a href="https://www.linkedin.com/company/flottaweb" class="text-muted" target="_blank">Linkedin</a></li>
+                 <li class="list-inline-item text-sm"><a href="https://www.youtube.com/channel/UCrIfQzcQS-a69jtL4TD0tJw" class="text-muted" target="_blank">YouTube</a></li>
              </ul>
              <!--
                 <ul class="list-inline social-links mt-3">
@@ -50,10 +50,10 @@
              -->
         </div>
         
-        <div class="col-md-3">
+        <div class="col-md-3 text-right">
             <ul class="list-inline  mt-4">
-                <li><a class="list-inline-item text-muted text-sm" href="#">Termini e Condizioni</a></li>
-                <li><a class="list-inline-item text-muted text-sm" href="#">Privacy Policy</li>
+                <li class="list-inline-item"><a class="text-muted text-sm" href="#">Termini e Condizioni</a></li>
+                <li class="list-inline-item"><a class="text-muted text-sm" href="#">Privacy Policy</a></li>
             </ul>
         </div>
         
