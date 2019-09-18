@@ -51,7 +51,7 @@
         </div>
         
         <div class="col-md-3 text-right">
-            <ul class="list-inline  mt-4">
+            <ul class="list-inline pt-3 mt-4">
                 <li class="list-inline-item"><a class="text-muted text-sm" href="#">Termini e Condizioni</a></li>
                 <li class="list-inline-item"><a class="text-muted text-sm" href="#">Privacy Policy</a></li>
             </ul>
