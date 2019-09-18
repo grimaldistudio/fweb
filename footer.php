@@ -34,7 +34,7 @@
       
           <div class="col-md-5">
              <span class="text-sm">Seguici anche su</span>
-             <ul class="list-inline  mt-3">
+             <ul class="list-inline  mt-md-3">
                  <li class="list-inline-item text-sm"><a href="https://www.facebook.com/flottaweb" class="text-muted" target="_blank">Facebook</a></li>
                  <li class="list-inline-item text-sm"><a href="https://twitter.com/flottaweb" class="text-muted" target="_blank">Twitter</a></li>
                  <li class="list-inline-item text-sm"><a href="https://www.linkedin.com/company/flottaweb" class="text-muted" target="_blank">Linkedin</a></li>
@@ -50,8 +50,8 @@
              -->
         </div>
         
-        <div class="col-md-3 text-right">
-            <ul class="list-inline pt-3 mt-4">
+        <div class="col-md-3 text-md-right">
+            <ul class="list-inline pt-md-3 mt-md-4">
                 <li class="list-inline-item"><a class="text-muted text-sm" href="#">Termini e Condizioni</a></li>
                 <li class="list-inline-item"><a class="text-muted text-sm" href="#">Privacy Policy</a></li>
             </ul>
