@@ -14323,10 +14323,14 @@ template {
   }
 }
 
-/* line 266, src/sass/components/_menu.scss */
-.user-login a {
-  font-size: 2.0rem;
-  color: #000000;
+/* line 265, src/sass/components/_menu.scss */
+user-login {
+  margin: 0 0 0 25px;
+}
+
+/* line 267, src/sass/components/_menu.scss */
+user-login a {
+  font-size: 0.80rem;
 }
 
 /*
@@ -14374,11 +14378,16 @@ body #home-scrollpage-menu .nav-item:hover:after {
 }
 
 /* line 8, src/sass/components/_utilities.scss */
+.b-t-muted {
+  border: 1px solid rgba(109, 118, 126, 0.6);
+}
+
+/* line 11, src/sass/components/_utilities.scss */
 .b-info {
   border-color: #193246;
 }
 
-/* line 12, src/sass/components/_utilities.scss */
+/* line 15, src/sass/components/_utilities.scss */
 .list-default li {
   list-style: none;
   padding-left: 8px;
@@ -14386,7 +14395,7 @@ body #home-scrollpage-menu .nav-item:hover:after {
   margin: 3px 0 3px 0;
 }
 
-/* line 17, src/sass/components/_utilities.scss */
+/* line 20, src/sass/components/_utilities.scss */
 .list-default li:before {
   content: "\e685";
   font-family: 'Pe-icon-7-stroke';
@@ -14398,7 +14407,7 @@ body #home-scrollpage-menu .nav-item:hover:after {
   color: #a30d05;
 }
 
-/* line 31, src/sass/components/_utilities.scss */
+/* line 34, src/sass/components/_utilities.scss */
 .btn-outline, .btn-outline button, .btn-outline a {
   font-weight: 500 !important;
   color: #000000 !important;
@@ -14406,37 +14415,42 @@ body #home-scrollpage-menu .nav-item:hover:after {
   font-size: initial !important;
 }
 
-/* line 38, src/sass/components/_utilities.scss */
+/* line 41, src/sass/components/_utilities.scss */
 .btn-outline:hover, .btn-outline button:hover, .btn-outline a:hover {
   background: none !important;
 }
 
-/* line 40, src/sass/components/_utilities.scss */
+/* line 43, src/sass/components/_utilities.scss */
 .btn-outline:hover i, .btn-outline button:hover i, .btn-outline a:hover i {
   -webkit-transform: translate(15px, -7px) !important;
           transform: translate(15px, -7px) !important;
 }
 
-/* line 45, src/sass/components/_utilities.scss */
+/* line 48, src/sass/components/_utilities.scss */
 .btn-outline i, .btn-outline button i, .btn-outline a i {
   font-size: 28px !important;
   line-height: 10px !important;
   right: 5px !important;
 }
 
-/* line 53, src/sass/components/_utilities.scss */
+/* line 56, src/sass/components/_utilities.scss */
 .text-sm {
   font-size: 1rem;
 }
 
-/* line 57, src/sass/components/_utilities.scss */
+/* line 60, src/sass/components/_utilities.scss */
 .text-xs {
   font-size: 0.80rem;
 }
 
-/* line 61, src/sass/components/_utilities.scss */
+/* line 64, src/sass/components/_utilities.scss */
 .bg-black {
   background-color: #000000;
+}
+
+/* line 68, src/sass/components/_utilities.scss */
+.l-h-xs {
+  line-height: 13px;
 }
 
 @font-face {
