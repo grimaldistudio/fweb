@@ -52,8 +52,8 @@
         
         <div class="col-md-3 text-md-right">
             <ul class="list-inline pt-md-3 mt-md-4">
-                <li class="list-inline-item"><a class="text-muted text-sm" href="#">Termini e Condizioni</a></li>
-                <li class="list-inline-item"><a class="text-muted text-sm" href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a class="text-muted text-sm" href="/termini-e-condizioni">Termini e Condizioni</a></li>
+                <li class="list-inline-item"><a class="text-muted text-sm" href="/privacy-policy">Privacy Policy</a></li>
             </ul>
         </div>
         

@@ -15485,3 +15485,614 @@ body #home-scrollpage-menu .nav-item:hover:after {
 .pe-7s-airplay:before {
   content: "\e67f";
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?8fcgc6");
+  src: url("../fonts/icomoon.eot?8fcgc6#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?8fcgc6") format("truetype"), url("../fonts/icomoon.woff?8fcgc6") format("woff"), url("../fonts/icomoon.svg?8fcgc6#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* line 13, src/sass/components/_icomoon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path1:before {
+  content: "\e90f";
+  color: #1d1d1d;
+}
+
+/* line 32, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 37, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 42, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 47, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path5:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 52, src/sass/components/_icomoon.scss */
+.icon-catena-freddo-icon .path6:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 57, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path1:before {
+  content: "\e915";
+  color: #1d1d1d;
+}
+
+/* line 61, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 66, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 71, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path4:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 76, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path5:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 81, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path6:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 86, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path7:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 91, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path8:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 96, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path9:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 101, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path10:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 106, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path11:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 111, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path12:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 116, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path13:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: #f7f7f7;
+}
+
+/* line 121, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path14:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: #f7f7f7;
+}
+
+/* line 126, src/sass/components/_icomoon.scss */
+.icon-integrazione-icon .path15:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: #f7f7f7;
+}
+
+/* line 131, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path1:before {
+  content: "\e924";
+  color: #1d1d1d;
+}
+
+/* line 135, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 140, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 145, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 150, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 155, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 160, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path7:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 165, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path8:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 170, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path9:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 175, src/sass/components/_icomoon.scss */
+.icon-localizzazione-icon .path10:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 180, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path1:before {
+  content: "\e92e";
+  color: #1d1d1d;
+}
+
+/* line 184, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 189, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path3:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 194, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path4:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 199, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path5:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 204, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path6:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 209, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path7:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 214, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path8:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 219, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path9:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 224, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path10:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 229, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path11:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 234, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path12:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 239, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path13:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 244, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path14:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 249, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path15:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 254, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path16:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 259, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path17:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 264, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path18:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 269, src/sass/components/_icomoon.scss */
+.icon-sicurezza .path19:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: #f6f6f6;
+}
+
+/* line 274, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path1:before {
+  content: "\e941";
+  color: #1d1d1d;
+}
+
+/* line 278, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path2:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 283, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path3:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 288, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path4:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 293, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path5:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 298, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path6:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 303, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path7:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 308, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path8:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 313, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path9:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 318, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path10:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 323, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path11:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 328, src/sass/components/_icomoon.scss */
+.icon-spie-icon .path12:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: #fdfaff;
+}
+
+/* line 333, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path1:before {
+  content: "\e94d";
+  color: #1d1d1d;
+}
+
+/* line 337, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 342, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path3:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 347, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path4:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 352, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path5:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 357, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path6:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: #1d1d1d;
+}
+
+/* line 362, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path7:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 367, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path8:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 372, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path9:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 377, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path10:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 382, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path11:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 387, src/sass/components/_icomoon.scss */
+.icon-sviluppatori-icon .path12:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: #fefefe;
+}
+
+/* line 392, src/sass/components/_icomoon.scss */
+.icon-api-integration-icon:before {
+  content: "\e90b";
+}
+
+/* line 395, src/sass/components/_icomoon.scss */
+.icon-fleet-management-icon:before {
+  content: "\e90c";
+}
+
+/* line 398, src/sass/components/_icomoon.scss */
+.icon-planning-icon:before {
+  content: "\e90d";
+}
+
+/* line 401, src/sass/components/_icomoon.scss */
+.icon-security-icon:before {
+  content: "\e90e";
+}
+
+/* line 404, src/sass/components/_icomoon.scss */
+.icon-arrow-icon:before {
+  content: "\e900";
+}
+
+/* line 407, src/sass/components/_icomoon.scss */
+.icon-facebook-footer-icon:before {
+  content: "\e901";
+}
+
+/* line 410, src/sass/components/_icomoon.scss */
+.icon-facebook-header-icon:before {
+  content: "\e902";
+}
+
+/* line 413, src/sass/components/_icomoon.scss */
+.icon-gplus-footer-icon:before {
+  content: "\e903";
+}
+
+/* line 416, src/sass/components/_icomoon.scss */
+.icon-linkedin-footer-icon:before {
+  content: "\e904";
+}
+
+/* line 419, src/sass/components/_icomoon.scss */
+.icon-linkedin-header-icon:before {
+  content: "\e905";
+}
+
+/* line 422, src/sass/components/_icomoon.scss */
+.icon-menu-arrow-icon:before {
+  content: "\e906";
+}
+
+/* line 425, src/sass/components/_icomoon.scss */
+.icon-phone-icon:before {
+  content: "\e907";
+}
+
+/* line 428, src/sass/components/_icomoon.scss */
+.icon-twitter-footer-icon:before {
+  content: "\e908";
+}
+
+/* line 431, src/sass/components/_icomoon.scss */
+.icon-twitter-header-icon:before {
+  content: "\e909";
+}
+
+/* line 434, src/sass/components/_icomoon.scss */
+.icon-youtube-footer-icon:before {
+  content: "\e90a";
+}
