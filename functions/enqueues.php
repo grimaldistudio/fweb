@@ -36,3 +36,10 @@ if ( ! function_exists('b4st_enqueues') ) {
 	}
 }
 add_action('wp_enqueue_scripts', 'b4st_enqueues', 100);
+
+    function ns_cookie_yes() { ?>
+     <script id="cookieyes" type="text/javascript" src="https://app.cookieyes.com/client_data/d300be2d3bd3dbefffe749c9.js"></script>     
+      <?php
+      }
+      
+    add_action( 'wp_head', 'ns_cookie_yes', 110 );
